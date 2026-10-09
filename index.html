@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>十天搞定考研词汇 · 3502 词短文精读</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:"Microsoft YaHei","PingFang SC",Arial,sans-serif;background:#f4f6f8;color:#222;line-height:1.6;--artfs:17px;}
+#progressBar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,#2b7cdd,#56a3f0);width:0;z-index:1500;transition:width .12s;}
+.wrap{max-width:1250px;margin:0 auto;padding:18px 20px 60px;}
+.topbar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:12px;}
+.topbar h1{font-size:22px;color:#1f3a5f;}
+.topbar h1 small{font-size:13px;color:#7a8799;font-weight:normal;margin-left:10px;}
+.nav-links a{display:inline-block;margin-left:8px;padding:6px 14px;border-radius:18px;background:#fff;border:1px solid #d7dee8;color:#2b5797;text-decoration:none;font-size:13px;}
+.nav-links a:hover{background:#2b7cdd;color:#fff;border-color:#2b7cdd;}
+.toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;background:#fff;border-radius:12px;padding:10px 14px;margin-bottom:14px;box-shadow:0 2px 10px rgba(31,58,95,.06);}
+.toolbar .grp{display:flex;align-items:center;gap:4px;}
+.toolbar .lab{font-size:12px;color:#8a96a5;margin-right:2px;}
+.seg{display:inline-flex;border:1px solid #d7dee8;border-radius:18px;overflow:hidden;}
+.seg button{border:none;background:#fff;padding:6px 14px;font-size:13px;color:#456;cursor:pointer;}
+.seg button.on{background:#2b7cdd;color:#fff;}
+.tbtn{border:1px solid #d7dee8;background:#fff;border-radius:18px;padding:6px 13px;font-size:13px;color:#456;cursor:pointer;}
+.tbtn:hover{border-color:#2b7cdd;color:#2b7cdd;}
+.tbtn.on{background:#fff5e6;border-color:#e6a23c;color:#c87f10;}
+.tbtn .n{display:inline-block;background:#e6a23c;color:#fff;border-radius:10px;font-size:11px;padding:0 6px;margin-left:3px;}
+.tbtn.on .n{background:#e6a23c;}
+.meta-bar{background:#eef4fc;border:1px solid #d4e4f7;border-radius:10px;padding:9px 16px;font-size:13px;color:#456;margin-bottom:16px;}
+.meta-bar b{color:#2b5797;}
+.legend-dots{display:inline-flex;gap:14px;margin-left:6px;flex-wrap:wrap;}
+.legend-dots i{font-style:normal;}
+.dot-l{color:#2b7cdd;font-weight:bold;border-bottom:1px dashed #2b7cdd;}
+.dot-e{color:#1c9e63;font-weight:bold;border-bottom:1px dashed #1c9e63;}
+.article{background:#fff;border-radius:14px;box-shadow:0 4px 18px rgba(31,58,95,.08);padding:32px 40px;font-size:var(--artfs);}
+.para{margin:0 0 22px;}
+.sent{position:relative;display:block;margin-bottom:12px;padding-left:26px;}
+.en-zone{line-height:2.15;text-align:justify;color:#2b2b2b;}
+.zh{display:none;font-size:.92em;color:#556;line-height:1.9;background:#f4f8ff;border-left:3px solid #b9d4f5;padding:7px 12px;margin-top:5px;border-radius:0 8px 8px 0;}
+/* EN immersion mode: hover sentence -> zh bubble; .pinned -> inline */
+body.mode-en .sent:hover .zh{display:block;position:absolute;z-index:400;max-width:420px;left:26px;top:100%;background:#263445;color:#eaf1fb;border-left:3px solid #6aa3e0;padding:9px 13px;border-radius:8px;box-shadow:0 10px 26px rgba(0,0,0,.25);}
+body.mode-en .sent.pinned .zh{display:block;position:static;max-width:none;background:#f4f8ff;color:#556;border-left:3px solid #b9d4f5;padding:7px 12px;}
+body.mode-bi .zh{display:block;}
+body.mode-zh .en-zone{display:none;}
+body.mode-zh .zh{display:block;background:transparent;border-left:none;padding:7px 0 0;color:#333;font-size:1em;}
+body.mode-zh .sent{padding-left:0;}
+.sent-tools{position:absolute;left:0;top:2px;display:none;gap:2px;}
+.sent:hover .sent-tools{display:flex;}
+.sent-tools span{cursor:pointer;font-size:13px;line-height:1;padding:2px 3px;border-radius:5px;background:#eef4fc;}
+.sent-tools span:hover{background:#dbe8fa;}
+.sent-tools .st-gram{display:inline-block;background:#fdf3e0;}
+.sent-tools .st-gram:hover{background:#f8e2b4;}
+.sent.has-gram .sent-tools .st-gram{display:inline-block;}
+.sent.gram-hl{background:linear-gradient(90deg,#fff7e6,transparent 60%);border-radius:8px;}
+.sent.gram-hl .en-zone{box-shadow:inset 3px 0 #e6a23c;padding-left:8px;border-radius:3px;}
+/* word styles */
+.vocab-word{color:#2b7cdd;font-weight:bold;border-bottom:1px dashed #2b7cdd;cursor:pointer;position:relative;}
+.extra-word{color:#1c9e63;border-bottom:1px dashed #1c9e63;cursor:pointer;position:relative;}
+.plain-word{cursor:pointer;position:relative;border-bottom:1px dotted rgba(0,0,0,.18);}
+.plain-word:hover{background:#f2f6fc;}
+.vocab-word:hover,.extra-word:hover{background:#eaf3ff;}
+.extra-word:hover{background:#e9f8f1;}
+.vocab-word.saved{color:#d9534f;border-bottom-color:#d9534f;}
+.vocab-word.saved:hover{background:#fdeeec;}
+.pinned-tip .tip{display:block !important;}
+.tip{display:none;position:absolute;left:0;top:100%;background:#2b2b2b;color:#f5f5f5;padding:12px 14px;border-radius:10px;font-size:13px;line-height:1.65;min-width:250px;max-width:340px;white-space:pre-wrap;z-index:1000;box-shadow:0 8px 26px rgba(0,0,0,.28);font-weight:normal;text-align:left;margin-top:8px;}
+.tip::before{content:"";position:absolute;top:-6px;left:20px;border-width:0 6px 6px;border-style:solid;border-color:transparent transparent #2b2b2b;}
+.tip::after{content:"";position:absolute;top:-8px;left:0;right:0;height:8px;}
+.vocab-word:hover .tip,.extra-word:hover .tip,.plain-word:hover .tip{display:block;}
+.tip .troot{display:block;margin-top:7px;padding-top:7px;border-top:1px dashed #555;color:#8de0b4;font-size:12.5px;line-height:1.55;}
+sup.rb{font-size:10px;color:#fff;background:#1c9e63;border-radius:4px;padding:0 3px;margin-left:2px;vertical-align:super;font-weight:normal;font-family:Arial;}
+.vocab-word.rooted{border-bottom-color:#1c9e63;}
+body.root-only .vocab-word:not(.rooted),
+body.root-only .extra-word,
+body.root-only .plain-word{opacity:.16;}
+body.root-only sup.rb{display:inline-block;}
+.tip .tw{font-weight:bold;font-size:14.5px;color:#ffd98a;}
+.tip .tp{color:#b9d8ff;}
+.tip .tc{margin-top:2px;}
+.tip .thint{display:block;margin-top:7px;font-size:11.5px;color:#9aa6b2;}
+.tip .tacts{display:flex;gap:8px;margin-top:8px;}
+.tip .tacts a,.tip .tacts span{font-size:12px;background:#444;padding:3px 9px;border-radius:10px;color:#eee;text-decoration:none;cursor:pointer;}
+.tip .tacts a:hover,.tip .tacts span:hover{background:#5a5a5a;}
+/* grammar card */
+.gram-card{display:none;background:#fffdf5;border:1px solid #f0dfa8;border-radius:10px;padding:14px 18px;margin:6px 0 14px 26px;box-shadow:0 3px 12px rgba(160,130,40,.1);}
+.gram-card.open{display:block;}
+.gram-card h4{font-size:14.5px;color:#a9761a;margin-bottom:3px;}
+.gram-card .skel{font-size:12.5px;color:#8a7a4e;margin-bottom:9px;}
+.gram-card .gsent{font-size:13.5px;line-height:2;color:#333;background:#fff;border:1px dashed #ecd9a3;border-radius:8px;padding:9px 12px;margin-bottom:10px;}
+.gram-card mark.gh{background:transparent;border-radius:3px;padding:0 2px;}
+.gram-card mark.gh[data-n]::after{content:attr(data-n);font-size:10px;vertical-align:super;color:#fff;background:#e6a23c;border-radius:50%;padding:0 4px;margin-left:1px;font-weight:bold;}
+.gram-card mark.gh.g1{background:#ffe9c2;} .gram-card mark.gh.g2{background:#d8ecff;}
+.gram-card mark.gh.g3{background:#ddf5e2;} .gram-card mark.gh.g4{background:#f5dcf5;}
+.gram-card mark.gh.g5{background:#ffe0d6;} .gram-card mark.gh.g6{background:#e4e0fb;}
+.gram-card table{width:100%;border-collapse:collapse;font-size:12.5px;margin-bottom:9px;}
+.gram-card td{border-top:1px solid #f0e6c8;padding:5px 7px;vertical-align:top;color:#444;}
+.gram-card td.role{width:104px;color:#a9761a;font-weight:bold;white-space:nowrap;}
+.gram-card td.role b{display:inline-block;background:#e6a23c;color:#fff;border-radius:50%;width:16px;height:16px;line-height:16px;text-align:center;font-size:10px;margin-right:5px;}
+.gram-card td.frag{color:#2b5797;width:46%;}
+.gram-card .pts{font-size:12.5px;color:#555;}
+.gram-card .pts li{margin-left:18px;margin-bottom:3px;}
+.gram-card .gzh{font-size:12.5px;color:#6a7a8a;margin-top:8px;border-top:1px dashed #ecd9a3;padding-top:7px;}
+.gram-card .gacts{margin-top:8px;}
+.gram-card .gacts span{cursor:pointer;font-size:12px;background:#fdf0d3;border:1px solid #e6c87a;color:#8a6d2b;padding:3px 11px;border-radius:10px;}
+.gram-card .gacts span:hover{background:#f8e2ac;}
+/* vocab panel */
+#vocabPanel{position:fixed;right:16px;top:84px;width:296px;max-height:calc(100vh - 104px);overflow:auto;background:#fffbeb;border:1px solid #ecd9a3;border-radius:14px;box-shadow:0 8px 28px rgba(90,70,20,.18);padding:14px 16px;z-index:500;}
+#vocabPanel h3{font-size:15px;color:#8a6d2b;margin-bottom:6px;}
+#vocabPanel .sub{font-size:12px;color:#a08a4e;margin-bottom:10px;}
+#panelEmpty{font-size:13px;color:#b3a272;padding:4px 0 10px;}
+.chip{display:inline-flex;align-items:center;gap:5px;background:#fff;border:1px solid #e3cd84;border-radius:16px;padding:3px 6px 3px 11px;margin:0 6px 8px 0;font-size:13px;}
+.chip .cw{color:#b3541e;font-weight:bold;cursor:help;}
+.chip .cs{cursor:pointer;color:#b3964a;padding:0 2px;}
+.chip .cs:hover{color:#2b7cdd;}
+.chip .del{cursor:pointer;color:#a0813c;font-weight:bold;padding:0 5px;border-radius:50%;}
+.chip .del:hover{background:#f5e6c0;color:#7a5a10;}
+.panel-btns{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap;}
+.panel-btns button{flex:1;min-width:78px;padding:7px 6px;border:none;border-radius:8px;cursor:pointer;font-size:12.5px;color:#fff;}
+#btnClear{background:#e08b6f;} #btnClear:hover{background:#cf6f4f;}
+#btnCopy{background:#c9a94f;} #btnCopy:hover{background:#b1912f;}
+#btnReview{background:#7a67d8;} #btnReview:hover{background:#6552c4;}
+#toast{position:fixed;left:50%;bottom:34px;transform:translateX(-50%);background:#333;color:#fff;padding:10px 22px;border-radius:22px;font-size:13.5px;opacity:0;transition:opacity .25s;z-index:2000;pointer-events:none;}
+#toast.show{opacity:.94;}
+/* flashcard review overlay */
+#reviewMask{display:none;position:fixed;inset:0;background:rgba(20,30,45,.62);z-index:3000;align-items:center;justify-content:center;padding:20px;}
+#reviewMask.open{display:flex;}
+.rcard{background:#fff;border-radius:18px;width:min(520px,92vw);padding:30px 30px 24px;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.35);}
+.rcard .rprog{font-size:12.5px;color:#8a96a5;margin-bottom:14px;}
+.rflip{position:relative;min-height:170px;perspective:1000px;cursor:pointer;margin-bottom:16px;}
+.rinner{position:relative;width:100%;min-height:170px;transition:transform .35s;transform-style:preserve-3d;}
+.rflip.flipped .rinner{transform:rotateX(180deg);}
+.rface{position:absolute;inset:0;backface-visibility:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;border-radius:14px;padding:18px;}
+.rfront{background:#f3f7ff;border:1px solid #d4e4f7;}
+.rfront .rw{font-size:34px;font-weight:bold;color:#2b5797;}
+.rfront .rph{color:#5a83b8;font-size:15px;}
+.rfront .rsp{cursor:pointer;font-size:18px;}
+.rback{background:#fff8ec;border:1px solid #ecd9a3;transform:rotateX(180deg);font-size:16px;color:#6b5420;line-height:1.8;}
+.rtip{font-size:12px;color:#a0b0c0;}
+.rbtns{display:flex;gap:12px;justify-content:center;}
+.rbtns button{border:none;border-radius:22px;padding:10px 26px;font-size:14px;cursor:pointer;color:#fff;}
+#rKeep{background:#e6a23c;} #rKeep:hover{background:#cf8a1c;}
+#rKnown{background:#37b37c;} #rKnown:hover{background:#2c9866;}
+#rClose{position:absolute;top:14px;right:18px;border:none;background:none;font-size:22px;color:#8a96a5;cursor:pointer;}
+.rdone{font-size:16px;color:#2c9866;line-height:2;}
+/* index */
+.hero{text-align:center;padding:24px 10px 6px;}
+.hero h1{font-size:29px;color:#1f3a5f;margin-bottom:9px;}
+.hero p{color:#5f6f82;font-size:14.5px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(284px,1fr));gap:16px;margin-top:22px;}
+.card{display:block;background:#fff;border-radius:14px;padding:19px 21px;text-decoration:none;color:inherit;box-shadow:0 4px 16px rgba(31,58,95,.07);border-top:4px solid #2b7cdd;transition:transform .12s,box-shadow .12s;position:relative;}
+.card:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(43,124,221,.18);}
+.card h2{font-size:18px;color:#1f3a5f;margin-bottom:6px;}
+.card .tag{display:inline-block;font-size:12px;background:#eef4fc;color:#2b5797;border-radius:10px;padding:2px 10px;margin-bottom:9px;}
+.card .nums{font-size:12.5px;color:#7a8799;margin-bottom:7px;}
+.card .pwrap{height:5px;background:#eef1f5;border-radius:4px;overflow:hidden;margin-top:9px;}
+.card .pbar{height:100%;width:0;background:linear-gradient(90deg,#2b7cdd,#56a3f0);}
+.card.done::after{content:"✓ 已读完";position:absolute;top:14px;right:14px;font-size:11.5px;color:#fff;background:#37b37c;border-radius:10px;padding:2px 9px;}
+.card .pct{font-size:11.5px;color:#9aa8b8;margin-top:4px;text-align:right;}
+.legend{margin-top:24px;background:#fff;border-radius:12px;padding:16px 22px;font-size:13px;color:#5a6a7d;box-shadow:0 2px 10px rgba(31,58,95,.06);line-height:2;}
+.legend .dot-l,.legend .dot-e{font-weight:bold;}
+@media (max-width:1200px){
+  #vocabPanel{left:0;right:0;top:auto;bottom:0;width:100%;max-height:40vh;border-radius:14px 14px 0 0;}
+  .wrap{padding-bottom:44vh;}
+  .article{padding:22px 18px;}
+  body.mode-en .sent:hover .zh{position:static;background:#f4f8ff;color:#556;border-left:3px solid #b9d4f5;max-width:none;}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <h1>十天搞定考研词汇 · 埋词短文精读 20 篇</h1>
+    <p>3502 个考纲词逐词埋入考研级短文 · 逐句中英对译 · 长难句语法拆解 · 悬停/点击查词朗读 · 生词卡片复习</p>
+    <p style="margin-top:14px"><a href="roots.html" style="display:inline-block;background:linear-gradient(90deg,#1c9e63,#2bb673);color:#fff;text-decoration:none;padding:11px 30px;border-radius:24px;font-size:15px;box-shadow:0 6px 18px rgba(28,158,99,.3)">🌱 进入 60 词根学习中心 · 408 词适用词根法 / 3094 词整体记忆</a></p>
+    <p style="margin-top:12px"><a href="review.html" style="display:inline-block;background:linear-gradient(90deg,#2b7cdd,#56a3f0);color:#fff;text-decoration:none;padding:11px 30px;border-radius:24px;font-size:15px;box-shadow:0 6px 18px rgba(43,124,221,.3)">📅 进入每日复习计划 · 艾宾浩斯遗忘曲线 10 天背完 3502 词</a></p>
+  </div>
+  <div class="grid">
+<a class="card" href="List01.html" data-n="1">
+  <h2>List 1 <span style="font-size:13px;color:#8a96a5;font-weight:normal;">Day 01</span></h2>
+  <span class="tag">五星词汇</span>
+  <div class="nums">词表 157 词 · 55 句精读 · 拓展 58 · 长难句 3</div>
+  <div class="pwrap"><div class="pbar"></div></div><div class="pct"></div>
+</a>
+<a class="card" href="List02.html" data-n="2">
+  <h2>List 2 <span style="font-size:13px;color:#8a96a5;font-weight:normal;">Day 01</span></h2>
+  <span class="tag">五星词汇</span>
+  <div class="nums">词表 156 词 · 66 句精读 · 拓展 80 · 长难句 3</div>
+  <div class="pwrap"><div class="pbar"></div></div><div class="pct"></div>
+</a>
+<a class="card" href="List03.html" data-n="3">
+  <h2>List 3 <span style="font-size:13px;color:#8a96a5;font-weight:normal;">Day 02</span></h2>
+  <span class="tag">四星词汇</span>
+  <div class="nums">词表 138 词 · 57 句精读 · 拓展 51 · 长难句 3</div>
+  <div class="pwrap"><div class="pbar"></div></div><div class="pct"></div>
+</a>
+<a class="card" href="List04.html" data-n="4">
+  <h2>List 4 <span style="font-size:13px;color:#8a96a5;font-weight:normal;">Day 02</span></h2>
+  <span class="tag">四星词汇</span>
+  <div class="nums">词表 139 词 · 41 句精读 · 拓展 80 · 长难句 3</div>
+  <div class="pwrap"><div class="pbar"></div></div><div class="pct"></div>
+</a>
+<a class="card" href="List05.html" data-n="5">
+  <h2>List 5 <span style="font-size:13px;color:#8a96a5;font-weight:normal;">Day 03</span></h2>
+  <span class="tag">四星词汇</span>
+  <div class="nums">词表 141 词 · 48 句精读 · 拓展 80 · 长难句 3</div>
+  <div class="pwrap"><div class="pbar"></div></div><div class="pct"></div>
+</a>
+<a class="card" href="List06.html" data-n="6">
+  <h2>List 6 <span style="font-size:13px;color:#8a96a5;font-weight:normal;">Day 03</span></h2>
+  <span class="tag">四星词汇</span>
+  <div class="nums">词表 148 词 · 68 句精读 · 拓展 80 · 长难句 3</div>
+  <div class="pwrap"><div class="pbar"></div></div><div class="pct"></div>
+</a>
+<a class="card" href="List07.html" data-n="7">
+  <h2>List 7 <span style="font-size:13px;color:#8a96a5;font-weight:normal;">Day 04</span></h2>
+  <span class="tag">三星词汇</span>
+  <div class="nums">词表 176 词 · 79 句精读 · 拓展 80 · 长难句 3</div>
+  <div class="pwrap"><div class="pbar"></div></div><div class="pct"></div>
+</a>
+<a class="card" href="List08.html" data-n="8">
+  <h2>List 8 <span style="font-size:13px;color:#8a96a5;font-weight:normal;">Day 04</span></h2>
+  <span class="tag">三星词汇</span>
+  <div class="nums">词表 162 词 · 57 句精读 · 拓展 72 · 长难句 3</div>
+  <div class="pwrap"><div class="pbar"></div></div><div class="pct"></div>
+</a>
+<a class="card" href="List09.html" data-n="9">
+  <h2>List 9 <span style="font-size:13px;color:#8a96a5;font-weight:normal;">Day 05</span></h2>
+  <span class="tag">三星词汇</span>
+  <div class="nums">词表 178 词 · 57 句精读 · 拓展 64 · 长难句 3</div>
+  <div class="pwrap"><div class="pbar"></div></div><div class="pct"></div>
+</a>
+<a class="card" href="List10.html" data-n="10">
+  <h2>List 10 <span style="font-size:13px;color:#8a96a5;font-weight:normal;">Day 05</span></h2>
+  <span class="tag">三星词汇</span>
+  <div class="nums">词表 179 词 · 40 句精读 · 拓展 69 · 长难句 3</div>
+  <div class="pwrap"><div class="pbar"></div></div><div class="pct"></div>
+</a>
+<a class="card" href="List11.html" data-n="11">
+  <h2>List 11 <span style="font-size:13px;color:#8a96a5;font-weight:normal;">Day 06</span></h2>
+  <span class="tag">三星词汇</span>
+  <div class="nums">词表 187 词 · 44 句精读 · 拓展 78 · 长难句 3</div>
+  <div class="pwrap"><div class="pbar"></div></div><div class="pct"></div>
+</a>
+<a class="card" href="List12.html" data-n="12">
+  <h2>List 12 <span style="font-size:13px;color:#8a96a5;font-weight:normal;">Day 06</span></h2>
+  <span class="tag">三星词汇</span>
+  <div class="nums">词表 233 词 · 128 句精读 · 拓展 59 · 长难句 3</div>
+  <div class="pwrap"><div class="pbar"></div></div><div class="pct"></div>
+</a>
+<a class="card" href="List13.html" data-n="13">
+  <h2>List 13 <span style="font-size:13px;color:#8a96a5;font-weight:normal;">Day 07</span></h2>
+  <span class="tag">三星词汇</span>
+  <div class="nums">词表 179 词 · 63 句精读 · 拓展 74 · 长难句 3</div>
+  <div class="pwrap"><div class="pbar"></div></div><div class="pct"></div>
+</a>
+<a class="card" href="List14.html" data-n="14">
+  <h2>List 14 <span style="font-size:13px;color:#8a96a5;font-weight:normal;">Day 07</span></h2>
+  <span class="tag">三星词汇</span>
+  <div class="nums">词表 199 词 · 75 句精读 · 拓展 80 · 长难句 3</div>
+  <div class="pwrap"><div class="pbar"></div></div><div class="pct"></div>
+</a>
+<a class="card" href="List15.html" data-n="15">
+  <h2>List 15 <span style="font-size:13px;color:#8a96a5;font-weight:normal;">Day 08</span></h2>
+  <span class="tag">三星词汇</span>
+  <div class="nums">词表 189 词 · 75 句精读 · 拓展 74 · 长难句 3</div>
+  <div class="pwrap"><div class="pbar"></div></div><div class="pct"></div>
+</a>
+<a class="card" href="List16.html" data-n="16">
+  <h2>List 16 <span style="font-size:13px;color:#8a96a5;font-weight:normal;">Day 08</span></h2>
+  <span class="tag">三星词汇</span>
+  <div class="nums">词表 199 词 · 58 句精读 · 拓展 78 · 长难句 3</div>
+  <div class="pwrap"><div class="pbar"></div></div><div class="pct"></div>
+</a>
+<a class="card" href="List17.html" data-n="17">
+  <h2>List 17 <span style="font-size:13px;color:#8a96a5;font-weight:normal;">Day 09</span></h2>
+  <span class="tag">三星词汇</span>
+  <div class="nums">词表 167 词 · 43 句精读 · 拓展 59 · 长难句 3</div>
+  <div class="pwrap"><div class="pbar"></div></div><div class="pct"></div>
+</a>
+<a class="card" href="List18.html" data-n="18">
+  <h2>List 18 <span style="font-size:13px;color:#8a96a5;font-weight:normal;">Day 09</span></h2>
+  <span class="tag">三星词汇</span>
+  <div class="nums">词表 213 词 · 45 句精读 · 拓展 77 · 长难句 3</div>
+  <div class="pwrap"><div class="pbar"></div></div><div class="pct"></div>
+</a>
+<a class="card" href="List19.html" data-n="19">
+  <h2>List 19 <span style="font-size:13px;color:#8a96a5;font-weight:normal;">Day 10</span></h2>
+  <span class="tag">三星词汇</span>
+  <div class="nums">词表 188 词 · 63 句精读 · 拓展 78 · 长难句 3</div>
+  <div class="pwrap"><div class="pbar"></div></div><div class="pct"></div>
+</a>
+<a class="card" href="List20.html" data-n="20">
+  <h2>List 20 <span style="font-size:13px;color:#8a96a5;font-weight:normal;">Day 10</span></h2>
+  <span class="tag">三星词汇</span>
+  <div class="nums">词表 174 词 · 53 句精读 · 拓展 72 · 长难句 3</div>
+  <div class="pwrap"><div class="pbar"></div></div><div class="pct"></div>
+</a>
+  </div>
+  <div class="legend">
+    <b>功能说明：</b><br>
+    ① <span class="dot-l">蓝色虚线词</span>＝本 List 词表单词（每词恰好出现一次），<span class="dot-e">绿色虚线词</span>＝标注的超纲拓展词与短语；其余所有单词也都可以<b>悬停</b>，支持 🔊 朗读 / 跳转有道词典。<br>
+    ② 三种阅读模式：<b>英文沉浸</b>（悬停句子看译文）、<b>逐句对照</b>、<b>仅看中文</b>；字号、英音/美音可切换。<br>
+    ③ 句首工具条：🔊 朗读整句、「译」临时显示译文；标有 🔷 的句子是<b>长难句</b>，点击可展开成分拆解 + 语法考点 + 翻译要点，顶部「长难句」按钮可一键展开全部。<br>
+    ④ 点击单词加入右侧「📓 生词队列」（自动本地保存、20 篇共享），支持复制导出与 🃏 <b>闪卡复习</b>（翻面看释义、已掌握自动移除）。<br>
+    ⑤ 阅读进度自动记录，读完 95% 自动标记 ✓，目录卡片可查看每篇进度。<br>
+    ⑥ 🌱 <b><a href="roots.html" style="color:#138a55">词根学习中心</a></b>：3502 词分两大类——可按 60 个核心词根拆解的 408 词（文中带 <sup class="rb">根</sup> 角标，悬停看「前缀+词根→字面义」，顶栏可一键聚焦）和不适用词根法、需整体记忆的 3094 词；支持任意单词查分类。<br>
+    ⑦ 📅 <b><a href="review.html" style="color:#1f66c2">每日复习计划</a></b>：按艾宾浩斯遗忘曲线 10 天背完全部 3502 词——每天新学 2 个 List，每词自动在 <b>5分钟 / 30分钟 / 12小时 / 1天 / 2天 / 4天 / 7天 / 15天</b> 共 8 个遗忘临界点提醒复习；背词卡片自动摘取该词所在的短文例句（含中文译文与词根拆解）；每轮完成后自动重新倒计时，到点响铃提醒，在任何页面右下角都会弹出「去复习」提醒。
+  </div>
+</div>
+<script>
+document.querySelectorAll('.card').forEach(c=>{
+  const n=String(c.dataset.n).padStart(2,'0');
+  const v=parseFloat(localStorage.getItem('ky_read_'+n)||'0');
+  c.querySelector('.pbar').style.width=Math.round(v*100)+'%';
+  c.querySelector('.pct').textContent=v>=1?'100%':Math.round(v*100)+'%';
+  if(v>=1)c.classList.add('done');
+});
+
+/* ---- 复习到期提醒（跨页）：每20秒检查一次，到期在右下角弹出提醒 ---- */
+(function(){
+  try{
+    var IVL=[5*6e4,30*6e4,12*36e5,864e5,2*864e5,4*864e5,7*864e5,15*864e5];
+    var hideUntil=0, bell=null, dueShown=-1;
+    function tick(){
+      var rv;try{rv=JSON.parse(localStorage.getItem('ky_review_v1')||'null');}catch(e){return;}
+      if(!rv||!rv.words)return;
+      var now=Date.now(),due=0;
+      for(var k in rv.words){var st=rv.words[k];if(!st||st.s>=8)continue;
+        var t0=(st.t0===undefined?st.t:st.t0);
+        var d=(st.s<=1?st.t:t0)+IVL[st.s];
+        if(d<=now)due++;}
+      if(due>0&&now>=hideUntil)show(due);
+      else if(bell&&due===0){bell.remove();bell=null;dueShown=-1;}
+    }
+    function show(due){
+      if(bell&&dueShown===due)return;
+      dueShown=due;
+      if(!bell){
+        bell=document.createElement('div');
+        bell.style.cssText='position:fixed;right:18px;bottom:18px;z-index:4000;background:linear-gradient(135deg,#e6a23c,#e0803c);color:#fff;border-radius:14px;padding:12px 16px;box-shadow:0 10px 30px rgba(200,120,20,.45);font-size:13.5px;max-width:300px;line-height:1.6;font-family:inherit;';
+        document.body.appendChild(bell);
+      }
+      var back=encodeURIComponent(location.pathname.split('/').pop()||'index.html');
+      bell.innerHTML='<div style="font-weight:bold;margin-bottom:4px">🔔 复习时间到！</div><div>'+due+' 个单词已到达遗忘临界点</div>'
+        +'<div style="margin-top:8px;display:flex;gap:8px"><a href="review.html?back='+back+'" style="flex:1;text-align:center;background:#fff;color:#c87f10;text-decoration:none;border-radius:9px;padding:5px 0;font-weight:bold">去复习 →</a>'
+        +'<span class="rvBellX" style="cursor:pointer;background:rgba(255,255,255,.25);border-radius:9px;padding:5px 10px">稍后</span></div>';
+      var x=bell.querySelector('.rvBellX');
+      if(x)x.addEventListener('click',function(){hideUntil=Date.now()+10*6e4;if(bell){bell.remove();bell=null;dueShown=-1;}});
+    }
+    setInterval(tick,20000);setTimeout(tick,1500);
+  }catch(e){}
+})();
+
+</script>
+</body>
+</html>

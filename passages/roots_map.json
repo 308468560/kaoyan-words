@@ -1,0 +1,3266 @@
+{
+"contend": {
+"rid": 19,
+"root": "tend",
+"rootcn": "伸",
+"br": "con(一起)+tend(伸)→一起抻手争抢",
+"m": "v.声称；主张；竞争；争辩",
+"phon": "[kənˈtend]"
+},
+"transmit": {
+"rid": 29,
+"root": "mit",
+"rootcn": "送",
+"br": "trans(转移)+mit(送)→转着发送",
+"m": "v.发送；传播；传递",
+"phon": "[trænzˈmɪt]"
+},
+"disruptive": {
+"rid": 37,
+"root": "rupt",
+"rootcn": "断",
+"br": "dis(分开)+rupt(断)+ive→打断弄乱的",
+"m": "adj.引起混乱的；破坏性的",
+"phon": "[dɪsˈrʌptɪv]"
+},
+"contradict": {
+"rid": 32,
+"root": "dict",
+"rootcn": "说",
+"br": "contra(相反)+dict(说)→反着说",
+"m": "v.反驳；相矛盾",
+"phon": "[ˌkɑntrəˈdɪkt]"
+},
+"provision": {
+"rid": 20,
+"root": "vis",
+"rootcn": "看",
+"br": "pro(提前)+vis(看)+ion→提前看到做准备",
+"m": "n.供应；预备；规定；条款",
+"phon": "[prəˈvɪʒ(ə)n]"
+},
+"contribute": {
+"rid": 27,
+"root": "tribut",
+"rootcn": "给",
+"br": "con(一起)+tribute(给)→一起给",
+"m": "v.捐献；贡献；促成",
+"phon": "[kənˈtrɪbjut]"
+},
+"illiterate": {
+"rid": 44,
+"root": "liter",
+"rootcn": "文字",
+"br": "il(不)+liter(文字)+ate→不识字的",
+"m": "adj.文盲的 n.文盲",
+"phon": "[ɪˈlɪtərət]"
+},
+"distinction": {
+"rid": 38,
+"root": "tinct",
+"rootcn": "刺激/刺",
+"br": "dis(分开)+tinct(刺)+ion→分别刺出记号",
+"m": "n.区别；区分",
+"phon": "[dɪˈstɪŋkʃ(ə)n]"
+},
+"abstract": {
+"rid": 8,
+"root": "tract",
+"rootcn": "拉/抽",
+"br": "ab(离开)+tract(抽)→抽出来的",
+"m": "adj.抽象的 v.提取 n.摘要",
+"phon": "[ˈæbstrækt]"
+},
+"controversy": {
+"rid": 2,
+"root": "vers",
+"rootcn": "转",
+"br": "contro(相反)+vers(转)+y→转到相反面",
+"m": "n.争论；论战",
+"phon": "[rsi]ˈkɑntrəvɜ"
+},
+"acclaim": {
+"rid": 7,
+"root": "claim",
+"rootcn": "喊",
+"br": "ac(加强)+claim(喊)→不断喊着称赞",
+"m": "v./n.称赞；欢呼",
+"phon": "[əˈkleɪm]"
+},
+"immediate": {
+"rid": 51,
+"root": "med",
+"rootcn": "中间",
+"br": "im(不)+medi(中间)+ate→没有中间环节",
+"m": "adj.立即的；即刻的",
+"phon": "[ɪˈdiət]"
+},
+"submission": {
+"rid": 29,
+"root": "mit",
+"rootcn": "送",
+"br": "sub(向下)+miss(送)+ion→送到下面",
+"m": "n.屈服；提交",
+"phon": "[səbˈmɪʃ(ə)n]"
+},
+"sufficient": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "suf(下面)+fic(做)+ient→做够了",
+"m": "adj.足够的；充足的",
+"phon": "[səˈfɪʃ(ə)nt]"
+},
+"magnificent": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "magni(大)+fic(做)+ent→做得宏大",
+"m": "adj.壮丽的；宏伟的",
+"phon": "[mæɡˈnɪfɪs(ə)nt]"
+},
+"coherent": {
+"rid": 36,
+"root": "her",
+"rootcn": "粘",
+"br": "co(一起)+her(粘)+ent→粘在一起",
+"m": "adj.连贯的；一致的",
+"phon": "[kəʊˈhɪrənt]"
+},
+"instinct": {
+"rid": 38,
+"root": "tinct",
+"rootcn": "刺激/刺",
+"br": "in(里面)+stinct(刺)→内在的刺激",
+"m": "n.本能；直觉",
+"phon": "[ˈɪnstɪŋkt]"
+},
+"nondurable": {
+"rid": 18,
+"root": "dur",
+"rootcn": "持久",
+"br": "non(不)+dur(持久)+able→不能持久的",
+"m": "adj.不耐用的 n.非耐久品",
+"phon": "[nɑˈdʊəb(ə)l]"
+},
+"susceptible": {
+"rid": 53,
+"root": "cept",
+"rootcn": "拿",
+"br": "sus(下面)+cept(拿)+ible→容易被拿下",
+"m": "adj.易受影响的",
+"phon": "[səseptəb(ə)l]ˈ"
+},
+"claim": {
+"rid": 7,
+"root": "claim",
+"rootcn": "喊",
+"br": "claim(喊)→喊出来索要",
+"m": "v.声称；索赔 n.要求",
+"phon": "[kleɪm]"
+},
+"adhere": {
+"rid": 36,
+"root": "her",
+"rootcn": "粘",
+"br": "ad(向)+her(粘)+e→粘上去",
+"m": "v.黏附；坚持",
+"phon": "[ədˈhɪr]"
+},
+"defer": {
+"rid": 35,
+"root": "fer",
+"rootcn": "带/运",
+"br": "de(离开)+fer(带)→把事带开推迟",
+"m": "v.推迟；延缓；服从",
+"phon": "[dɪˈfɜr]"
+},
+"notable": {
+"rid": 21,
+"root": "not",
+"rootcn": "知道",
+"br": "not(知道)+able(能)→能让人知道的",
+"m": "adj.值得注意的；著名的",
+"phon": "[ˈnəʊtəb(ə)l]"
+},
+"admission": {
+"rid": 29,
+"root": "mit",
+"rootcn": "送",
+"br": "ad(进入)+miss(送)+ion→允许送入",
+"m": "n.允许进入；承认",
+"phon": "[ədˈmɪʃ(ə)n]"
+},
+"ineffective": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "in(不)+ef(出)+fect(做)+ive→做不出效果",
+"m": "adj.无效果的；不起作用的",
+"phon": "[ˌɪnɪˈfektɪv]"
+},
+"perspective": {
+"rid": 25,
+"root": "spect",
+"rootcn": "看",
+"br": "per(贯穿)+spect(看)+ive→看透的角度",
+"m": "n.视角；观点",
+"phon": "[pərˈspektɪv]"
+},
+"envision": {
+"rid": 20,
+"root": "vis",
+"rootcn": "看",
+"br": "en(进入)+vis(看)+ion→在脑中看见",
+"m": "v.想象；设想",
+"phon": "[ɪnˈvɪʒ(ə)n]"
+},
+"artificial": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "arti(技术)+fic(做)+ial→人工做出来的",
+"m": "adj.人造的；假的",
+"phon": "[fɪʃ(ə)l]ˌɑrtɪˈ"
+},
+"international": {
+"rid": 59,
+"root": "nat",
+"rootcn": "出生",
+"br": "inter(中间)+nat(出生)+ional→国家之间的",
+"m": "adj.国际的",
+"phon": "[næʃnəl]ˌɪntərˈ"
+},
+"emit": {
+"rid": 29,
+"root": "mit",
+"rootcn": "送",
+"br": "e(向外)+mit(送)→送出来",
+"m": "v.散发；发出；发射",
+"phon": "[iˈmɪt]"
+},
+"humble": {
+"rid": 60,
+"root": "hum",
+"rootcn": "泥土/人",
+"br": "hum(泥土)+ble(性质)→低到泥土里",
+"m": "adj.谦逊的；卑微的",
+"phon": "[ˈhʌmb(ə)l]"
+},
+"prescribe": {
+"rid": 33,
+"root": "scrib",
+"rootcn": "写",
+"br": "pre(提前)+scribe(写)→提前写好",
+"m": "v.开药方；规定",
+"phon": "[prɪˈskraɪb]"
+},
+"infect": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "in(进入)+fect(做)→病毒进入起作用",
+"m": "v.传染；感染",
+"phon": "[ɪnˈfekt]"
+},
+"equivalent": {
+"rid": 42,
+"root": "equ",
+"rootcn": "相等",
+"br": "equ(相等)+val(价值)+ent→价值相等",
+"m": "adj.相等的 n.等价物",
+"phon": "[ɪˈkwɪvələnt]"
+},
+"deserve": {
+"rid": 26,
+"root": "serve",
+"rootcn": "保持/保护",
+"br": "de(加强)+serve(保持)→应得保有",
+"m": "v.值得；应得",
+"phon": "[dɪˈzɜrv]"
+},
+"advisory": {
+"rid": 20,
+"root": "vis",
+"rootcn": "看",
+"br": "ad(朝向)+vis(看)+ory→给出看法的",
+"m": "adj.劝告的；咨询的",
+"phon": "[ədvaɪzəri]ˈ"
+},
+"infinite": {
+"rid": 39,
+"root": "fin",
+"rootcn": "限制",
+"br": "in(不)+fin(限制)+ite→无限制",
+"m": "adj.无穷的；无限的",
+"phon": "[ˈɪnfɪnət]"
+},
+"subscription": {
+"rid": 33,
+"root": "scrib",
+"rootcn": "写",
+"br": "sub(下面)+script(写)+ion→在下面签名",
+"m": "n.订阅；签署",
+"phon": "[səbˈskrɪpʃ(ə)n]"
+},
+"motion": {
+"rid": 22,
+"root": "mot",
+"rootcn": "动",
+"br": "mot(动)+ion(名词)→运动",
+"m": "n.运动；动作",
+"phon": "[ˈməʊʃ(ə)n]"
+},
+"repository": {
+"rid": 1,
+"root": "pose",
+"rootcn": "放",
+"br": "re(回)+pos(放)+itory→放回去的地方",
+"m": "n.仓库；存放处",
+"phon": "[rɪˈpɑzətɔri]"
+},
+"format": {
+"rid": 4,
+"root": "form",
+"rootcn": "形状/形成",
+"br": "form(形状)+at→固定形式",
+"m": "n.格式；版式",
+"phon": "[ˈfɔrmæt]"
+},
+"privilege": {
+"rid": 28,
+"root": "priv",
+"rootcn": "个人",
+"br": "priv(个人)+lege(法律)→个人特权",
+"m": "n.特权",
+"phon": "[ˈprɪvəlɪdʒ]"
+},
+"reputation": {
+"rid": 52,
+"root": "put",
+"rootcn": "计算/思考",
+"br": "re(反复)+put(计算)+ation→反复被评价",
+"m": "n.名声；名誉",
+"phon": "[ˌrepjuˈteɪʃ(ə)n]"
+},
+"instruct": {
+"rid": 30,
+"root": "struct",
+"rootcn": "建造",
+"br": "in(里面)+struct(建造)→脑中建构",
+"m": "v.教授；指示",
+"phon": "[ɪnˈstrʌkt]"
+},
+"resent": {
+"rid": 6,
+"root": "sens",
+"rootcn": "感/感觉",
+"br": "re(反)+sent(感觉)→产生反感",
+"m": "v.愤恨；怨恨",
+"phon": "[rɪˈzent]"
+},
+"discontent": {
+"rid": 40,
+"root": "tain",
+"rootcn": "拿住",
+"br": "dis(不)+con(全)+tent(拿住)→不满足",
+"m": "n.不满",
+"phon": "[ˌdɪskənˈtent]"
+},
+"intervention": {
+"rid": 49,
+"root": "ven",
+"rootcn": "来",
+"br": "inter(中间)+vent(来)+ion→来到中间",
+"m": "n.干预；介入",
+"phon": "[ˌɪntərˈvenʃ(ə)n]"
+},
+"dispute": {
+"rid": 52,
+"root": "put",
+"rootcn": "计算/思考",
+"br": "dis(分开)+pute(计算)→算法不一致",
+"m": "n.纠纷 v.争执",
+"phon": "[dɪˈt]"
+},
+"revenue": {
+"rid": 49,
+"root": "ven",
+"rootcn": "来",
+"br": "re(回)+ven(来)+ue→收回来的钱",
+"m": "n.收入；税收",
+"phon": "[ˈrevənu]"
+},
+"disrupt": {
+"rid": 37,
+"root": "rupt",
+"rootcn": "断",
+"br": "dis(分散)+rupt(断)→打断弄乱",
+"m": "v.扰乱；使中断",
+"phon": "[dɪsˈrʌpt]"
+},
+"inventory": {
+"rid": 49,
+"root": "ven",
+"rootcn": "来",
+"br": "in(进入)+vent(来)+ory→找到物品的清单",
+"m": "n.清单；存货",
+"phon": "[ˈɪnvəntɔri]"
+},
+"extend": {
+"rid": 19,
+"root": "tend",
+"rootcn": "伸",
+"br": "ex(向外)+tend(伸)→往外伸",
+"m": "v.扩展；延长",
+"phon": "[ɪkˈstend]"
+},
+"commitment": {
+"rid": 29,
+"root": "mit",
+"rootcn": "送",
+"br": "com(全部)+mit(送)+ment→全部投入",
+"m": "n.承诺；奉献",
+"phon": "[kəˈmɪtmənt]"
+},
+"speculate": {
+"rid": 25,
+"root": "spect",
+"rootcn": "看",
+"br": "spec(看)+ulate(使)→看准了推测",
+"m": "v.推测；投机",
+"phon": "[ˈspekjuleɪt]"
+},
+"assert": {
+"rid": 58,
+"root": "sert",
+"rootcn": "插入",
+"br": "as(加强)+sert(插)→强行插入观点",
+"m": "v.断言；宣称",
+"phon": "[əˈsɜrt]"
+},
+"conclude": {
+"rid": 10,
+"root": "clud",
+"rootcn": "关",
+"br": "con(全部)+clude(关)→全部关上",
+"m": "v.得出结论；结束",
+"phon": "[kənˈd]"
+},
+"conform": {
+"rid": 4,
+"root": "form",
+"rootcn": "形状/形成",
+"br": "con(共同)+form(形状)→形状变成一样",
+"m": "v.符合；遵从",
+"phon": "[kənˈfɔrm]"
+},
+"tribute": {
+"rid": 27,
+"root": "tribut",
+"rootcn": "给",
+"br": "tribut(给)→给出的东西",
+"m": "n.贡品；颂词",
+"phon": "[ˈtrɪbjut]"
+},
+"connotation": {
+"rid": 21,
+"root": "not",
+"rootcn": "知道",
+"br": "con(一起)+not(知道)+ation→附带的含义",
+"m": "n.含义；隐含意义",
+"phon": "[ˌkɑnəˈteɪʃ(ə)n]"
+},
+"confine": {
+"rid": 39,
+"root": "fin",
+"rootcn": "限制",
+"br": "con(全部)+fine(限制)→全部限制住",
+"m": "v.限制；监禁",
+"phon": "[kənˈfaɪn]"
+},
+"multinational": {
+"rid": 59,
+"root": "nat",
+"rootcn": "出生",
+"br": "multi(多)+nat(出生)+ional→多国的",
+"m": "adj.多国的；跨国的",
+"phon": "[ˌmʌltɪˈnæʃən(ə)l]"
+},
+"consensus": {
+"rid": 6,
+"root": "sens",
+"rootcn": "感/感觉",
+"br": "con(共同)+sens(感觉)+us→感觉一致",
+"m": "n.一致；共识",
+"phon": "[kənˈsensəs]"
+},
+"facile": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "fac(做)+ile(易于)→容易做到的",
+"m": "adj.易做到的；轻率的",
+"phon": "[ˈfæs(ə)l]"
+},
+"contest": {
+"rid": 54,
+"root": "test",
+"rootcn": "测试",
+"br": "con(一起)+test(测试)→一起比拼",
+"m": "n.比赛 v.竞争",
+"phon": "[ˈkɑntest]"
+},
+"propose": {
+"rid": 1,
+"root": "pose",
+"rootcn": "放",
+"br": "pro(向前)+pose(放)→想法放前面",
+"m": "v.提议；求婚",
+"phon": "[prəˈpəʊz]"
+},
+"unattractive": {
+"rid": 8,
+"root": "tract",
+"rootcn": "拉/抽",
+"br": "un(不)+at(朝向)+tract(拉)+ive→拉不住注意",
+"m": "adj.没有魅力的；不引人注意的",
+"phon": "[ˌʌnəˈtræktɪv]"
+},
+"obtain": {
+"rid": 40,
+"root": "tain",
+"rootcn": "拿住",
+"br": "ob(朝向)+tain(拿住)→拿到",
+"m": "v.获得；得到",
+"phon": "[əbˈteɪn]"
+},
+"vanish": {
+"rid": 14,
+"root": "vac",
+"rootcn": "空",
+"br": "van(空)+ish(使)→使变空消失",
+"m": "v.突然消失；销声匿迹",
+"phon": "[ˈvænɪʃ]"
+},
+"efficient": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "ef(出)+fic(做)+ient→做事有效率",
+"m": "adj.效率高的",
+"phon": "[ɪˈfɪʃ(ə)nt]"
+},
+"innovator": {
+"rid": 17,
+"root": "nov",
+"rootcn": "新",
+"br": "in(进入)+nov(新)+ator→引入新东西的人",
+"m": "n.革新者；创新者",
+"phon": "[ˈɪnəveɪtər]"
+},
+"version": {
+"rid": 2,
+"root": "vers",
+"rootcn": "转",
+"br": "vers(转)+ion(名词)→转成的样子",
+"m": "n.版本；样式",
+"phon": "[ˈvɜrʒ(ə)n]"
+},
+"designate": {
+"rid": 24,
+"root": "sign",
+"rootcn": "标记",
+"br": "de(向下)+sign(标记)+ate→标记出来",
+"m": "v.指明；任命；命名",
+"phon": "[ˈdezɪɡneɪt]"
+},
+"purpose": {
+"rid": 1,
+"root": "pose",
+"rootcn": "放",
+"br": "pur(向前)+pose(放)→放前面的目标",
+"m": "n.目的；意图",
+"phon": "[ˈpɜrpəs]"
+},
+"subject": {
+"rid": 11,
+"root": "ject",
+"rootcn": "射",
+"br": "sub(向下)+ject(射)→射下去",
+"m": "n.学科；主题 adj.受支配的",
+"phon": "[ˈsʌbdʒekt]"
+},
+"distraction": {
+"rid": 8,
+"root": "tract",
+"rootcn": "拉/抽",
+"br": "dis(分开)+tract(拉)+ion→拉开注意力",
+"m": "n.分心；娱乐",
+"phon": "[dɪˈstrækʃ(ə)n]"
+},
+"invade": {
+"rid": 5,
+"root": "vade",
+"rootcn": "走",
+"br": "in(进入)+vade(走)→走进去",
+"m": "v.侵犯；侵略",
+"phon": "[ɪnˈveɪd]"
+},
+"deceptive": {
+"rid": 53,
+"root": "cept",
+"rootcn": "拿",
+"br": "de(错误)+cept(拿)+ive→拿错误信息",
+"m": "adj.欺骗性的",
+"phon": "[dɪˈseptɪv]"
+},
+"subscribe": {
+"rid": 33,
+"root": "scrib",
+"rootcn": "写",
+"br": "sub(下面)+scribe(写)→在下面签名",
+"m": "v.订阅；签署",
+"phon": "[səbˈskraɪb]"
+},
+"oppose": {
+"rid": 1,
+"root": "pose",
+"rootcn": "放",
+"br": "op(对面)+pose(放)→放到对面",
+"m": "v.反对；反抗",
+"phon": "[əˈpəʊz]"
+},
+"conversion": {
+"rid": 2,
+"root": "vers",
+"rootcn": "转",
+"br": "con(全部)+vers(转)+ion→全部转变",
+"m": "n.转换；转化",
+"phon": "[kənˈvɜrʒ(ə)n]"
+},
+"credible": {
+"rid": 15,
+"root": "cred",
+"rootcn": "相信",
+"br": "cred(相信)+ible(能)→能相信的",
+"m": "adj.可信的",
+"phon": "[ˈkredəb(ə)l]"
+},
+"impose": {
+"rid": 1,
+"root": "pose",
+"rootcn": "放",
+"br": "im(进入)+pose(放)→放到别人身上",
+"m": "v.强加；征收",
+"phon": "[ɪmˈpəʊz]"
+},
+"supervise": {
+"rid": 20,
+"root": "vis",
+"rootcn": "看",
+"br": "super(上面)+vis(看)→从上往下看",
+"m": "v.监督；管理",
+"phon": "[ˈpərvaɪz]"
+},
+"suppose": {
+"rid": 1,
+"root": "pose",
+"rootcn": "放",
+"br": "sup(下面)+pose(放)→私下认定",
+"m": "v.认为；假设",
+"phon": "[səˈpəʊz]"
+},
+"inclusive": {
+"rid": 10,
+"root": "clud",
+"rootcn": "关",
+"br": "in(里面)+clus(关)+ive→关在里面的",
+"m": "adj.包含的；包容的",
+"phon": "[ɪnˈsɪv]"
+},
+"non-controversial": {
+"rid": 2,
+"root": "vers",
+"rootcn": "转",
+"br": "non(不)+contro(反)+vers(转)+ial→不引起争论",
+"m": "adj.不具争议性的",
+"phon": "[ˌnɑkɑntrəˈvɜrʃ(ə)l]"
+},
+"declaration": {
+"rid": 57,
+"root": "clar",
+"rootcn": "清楚",
+"br": "de(向下)+clar(清楚)+ation→当众说清楚",
+"m": "n.宣言；声明",
+"phon": "[ˌdekləˈreɪʃ(ə)n]"
+},
+"inadequate": {
+"rid": 42,
+"root": "equ",
+"rootcn": "相等",
+"br": "in(不)+ad(向)+equ(相等)+ate→够不上",
+"m": "adj.不充分的",
+"phon": "[ɪnˈædɪkwət]"
+},
+"sustain": {
+"rid": 40,
+"root": "tain",
+"rootcn": "拿住",
+"br": "sus(下面)+tain(拿住)→从下面托住",
+"m": "v.支撑；维持",
+"phon": "[səˈsteɪn]"
+},
+"contract": {
+"rid": 8,
+"root": "tract",
+"rootcn": "拉/抽",
+"br": "con(一起)+tract(拉)→拉到一起",
+"m": "n.合同 v.收缩",
+"phon": "[ˈkɑntrækt]"
+},
+"differentiate": {
+"rid": 35,
+"root": "fer",
+"rootcn": "带/运",
+"br": "dif(分开)+fer(带)+entiate→带开区分",
+"m": "v.区分；区别",
+"phon": "[ˌdɪfəˈrenʃieɪt]"
+},
+"visual": {
+"rid": 20,
+"root": "vis",
+"rootcn": "看",
+"br": "vis(看)+ual(性质)→跟看有关的",
+"m": "adj.视觉的",
+"phon": "[vɪʒuəl]ˈ"
+},
+"adequate": {
+"rid": 42,
+"root": "equ",
+"rootcn": "相等",
+"br": "ad(朝向)+equ(相等)+ate→够得上的",
+"m": "adj.足够的；尚可的",
+"phon": "[ˈædɪkwət]"
+},
+"record": {
+"rid": 55,
+"root": "cord",
+"rootcn": "心",
+"br": "re(反复)+cord(心)→反复放在心上",
+"m": "n./v.记录",
+"phon": "[ˈrekərd]"
+},
+"definite": {
+"rid": 39,
+"root": "fin",
+"rootcn": "限制",
+"br": "de(向下)+fin(限制)+ite→限定清楚的",
+"m": "adj.肯定的；确定的",
+"phon": "[ˈdefɪnət]"
+},
+"sentiment": {
+"rid": 6,
+"root": "sens",
+"rootcn": "感/感觉",
+"br": "sent(感觉)+iment(名词)→长久的感觉",
+"m": "n.情绪；感情",
+"phon": "[ˈsentɪmənt]"
+},
+"include": {
+"rid": 10,
+"root": "clud",
+"rootcn": "关",
+"br": "in(里面)+clude(关)→关在里面",
+"m": "v.包括；包含",
+"phon": "[ɪnˈd]"
+},
+"impel": {
+"rid": 34,
+"root": "pel",
+"rootcn": "推",
+"br": "im(进入)+pel(推)→往里推动",
+"m": "v.促使；迫使",
+"phon": "[ɪmˈpel]"
+},
+"universe": {
+"rid": 2,
+"root": "vers",
+"rootcn": "转",
+"br": "uni(一)+vers(转)+e→转成一体",
+"m": "n.宇宙",
+"phon": "[ˈnɪvɜrs]"
+},
+"finance": {
+"rid": 39,
+"root": "fin",
+"rootcn": "限制",
+"br": "fin(终结)+ance(名词)→最后结清的钱",
+"m": "n.金融；财务",
+"phon": "[ˈfaɪnæns]"
+},
+"conversation": {
+"rid": 2,
+"root": "vers",
+"rootcn": "转",
+"br": "con(一起)+vers(转)+ation→话转来转去",
+"m": "n.谈话；交谈",
+"phon": "[ˌkɑnvərˈseɪʃ(ə)n]"
+},
+"advise": {
+"rid": 20,
+"root": "vis",
+"rootcn": "看",
+"br": "ad(朝向)+vis(看)+e→给出看法",
+"m": "v.劝告；建议",
+"phon": "[ədˈvaɪz]"
+},
+"indifferent": {
+"rid": 35,
+"root": "fer",
+"rootcn": "带/运",
+"br": "in(不)+dif(分开)+fer(带)+ent→不带区别心",
+"m": "adj.不关心的；一般的",
+"phon": "[ɪnˈdɪfrənt]"
+},
+"affect": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "af(朝向)+fect(做)→作用到身上",
+"m": "v.影响；感动",
+"phon": "[əˈfekt]"
+},
+"denote": {
+"rid": 21,
+"root": "not",
+"rootcn": "知道",
+"br": "de(向下)+note(知道)→标记指出",
+"m": "v.表示；代表",
+"phon": "[dɪˈnəʊt]"
+},
+"platform": {
+"rid": 4,
+"root": "form",
+"rootcn": "形状/形成",
+"br": "plat(平)+form(形状)→平的台子",
+"m": "n.平台；站台",
+"phon": "[ˈplætfɔrm]"
+},
+"deficiency": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "de(缺少)+fic(做)+iency→做得不够",
+"m": "n.缺乏；不足",
+"phon": "[dɪˈfɪʃ(ə)nsi]"
+},
+"sacrifice": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "sacri(神圣)+fic(做)+e→做祭神的事",
+"m": "v./n.牺牲；供奉",
+"phon": "[ˈsækrɪfaɪs]"
+},
+"permission": {
+"rid": 29,
+"root": "mit",
+"rootcn": "送",
+"br": "per(完全)+miss(送)+ion→完全放行",
+"m": "n.许可；批准",
+"phon": "[pərˈmɪʃ(ə)n]"
+},
+"convert": {
+"rid": 2,
+"root": "vers",
+"rootcn": "转",
+"br": "con(全部)+vert(转)→全部转变",
+"m": "v.转换；转变",
+"phon": "[kənˈvɜrt]"
+},
+"renovation": {
+"rid": 17,
+"root": "nov",
+"rootcn": "新",
+"br": "re(重新)+nov(新)+ation→重新变新",
+"m": "n.革新；修复",
+"phon": "[ˌrenəˈveɪʃ(ə)n]"
+},
+"literary": {
+"rid": 44,
+"root": "liter",
+"rootcn": "文字",
+"br": "liter(文字)+ary(性质)→与文字有关",
+"m": "adj.文学的",
+"phon": "[lɪtəreri]ˈ"
+},
+"depute": {
+"rid": 52,
+"root": "put",
+"rootcn": "计算/思考",
+"br": "de(离开)+put(思考)→分派给人",
+"m": "v.委派…为代表",
+"phon": "[dɪˈt]"
+},
+"beneficial": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "bene(好)+fic(做)→做好事的",
+"m": "adj.有益的；有用的",
+"phon": "[ˌbenɪˈfɪʃ(ə)l]"
+},
+"infer": {
+"rid": 35,
+"root": "fer",
+"rootcn": "带/运",
+"br": "in(里面)+fer(带)→从里面带出",
+"m": "v.推断；推知",
+"phon": "[ɪnˈfɜr]"
+},
+"press": {
+"rid": 3,
+"root": "press",
+"rootcn": "压",
+"br": "press(压)→按压",
+"m": "v.按；压 n.出版社；新闻界",
+"phon": "[pres]"
+},
+"disastrous": {
+"rid": 48,
+"root": "astr",
+"rootcn": "星星",
+"br": "dis(坏)+astr(星)→坏星象的",
+"m": "adj.灾难性的",
+"phon": "[dɪˈzæstrəs]"
+},
+"structure": {
+"rid": 30,
+"root": "struct",
+"rootcn": "建造",
+"br": "struct(建造)+ure→建出的东西",
+"m": "n.结构；建筑物 v.组织；安排",
+"phon": "[ˈstrʌktʃər]"
+},
+"influence": {
+"rid": 9,
+"root": "flu",
+"rootcn": "流",
+"br": "in(进入)+flu(流)→流入而影响",
+"m": "n.影响（力）v.影响",
+"phon": "[ˈɪnfluəns]"
+},
+"pretend": {
+"rid": 19,
+"root": "tend",
+"rootcn": "伸",
+"br": "pre(提前)+tend(伸)→提前摆样子",
+"m": "v.假装；佯装；自称",
+"phon": "[prɪˈtend]"
+},
+"destruct": {
+"rid": 30,
+"root": "struct",
+"rootcn": "建造",
+"br": "de(拆掉)+struct(建造)→拆掉建筑",
+"m": "v.摧毁；自毁 n.毁灭",
+"phon": "[dɪˈstrʌkt]"
+},
+"inform": {
+"rid": 4,
+"root": "form",
+"rootcn": "形状/形成",
+"br": "in(进入)+form(形状)→在心中成形",
+"m": "v.通知；告知",
+"phon": "[ɪnˈfɔrm]"
+},
+"prevent": {
+"rid": 49,
+"root": "ven",
+"rootcn": "来",
+"br": "pre(提前)+vent(来)→提前来挡住",
+"m": "v.防止；预防；妨碍",
+"phon": "[prɪˈvent]"
+},
+"humanity": {
+"rid": 60,
+"root": "hum",
+"rootcn": "泥土/人",
+"br": "hum(人)+anity→人类总称",
+"m": "n.人性；人类；人道",
+"phon": "[hjuːˈmænəti]"
+},
+"innovation": {
+"rid": 17,
+"root": "nov",
+"rootcn": "新",
+"br": "in(进入)+nov(新)+ation→引入新物",
+"m": "n.创新；改革",
+"phon": "[ˌɪnəˈveɪʃ(ə)n]"
+},
+"transform": {
+"rid": 4,
+"root": "form",
+"rootcn": "形状/形成",
+"br": "trans(改变)+form(形状)→改变形状",
+"m": "v.转变；改造",
+"phon": "[trænsˈfɔrm]"
+},
+"intention": {
+"rid": 19,
+"root": "tend",
+"rootcn": "伸",
+"br": "in(向内)+tent(伸)+ion→心思伸向",
+"m": "n.意图；打算",
+"phon": "[ɪnˈtenʃ(ə)n]"
+},
+"finalize": {
+"rid": 39,
+"root": "fin",
+"rootcn": "限制",
+"br": "fin(界限)+alize(使)→定到界限",
+"m": "v.确定；定案；最终确定",
+"phon": "[ˈfaɪnəlaɪz]"
+},
+"obstruct": {
+"rid": 30,
+"root": "struct",
+"rootcn": "建造",
+"br": "ob(挡住)+struct(建造)→挡住建设",
+"m": "v.阻碍；阻塞；阻挡",
+"phon": "[əbˈstrʌkt]"
+},
+"intensive": {
+"rid": 19,
+"root": "tend",
+"rootcn": "伸",
+"br": "in(向内)+tens(伸)+ive→向内拉紧",
+"m": "adj.密集的；增强的",
+"phon": "[ɪnˈtensɪv]"
+},
+"endurance": {
+"rid": 18,
+"root": "dur",
+"rootcn": "持久",
+"br": "en(使)+dur(持久)+ance→持久力",
+"m": "n.耐力；持久",
+"phon": "[ɪnˈdʊrəns]"
+},
+"infrastructure": {
+"rid": 30,
+"root": "struct",
+"rootcn": "建造",
+"br": "infra(在下)+struct(建造)→下部结构",
+"m": "n.基础设施",
+"phon": "[ˈɪnfrəstrʌktʃər]"
+},
+"spectrum": {
+"rid": 25,
+"root": "spect",
+"rootcn": "看",
+"br": "spect(看)+rum→看到的光带",
+"m": "n.范围；光谱；波谱",
+"phon": "[ˈspektrəm]"
+},
+"intend": {
+"rid": 19,
+"root": "tend",
+"rootcn": "伸",
+"br": "in(向内)+tend(伸)→心思伸向",
+"m": "v.打算；计划",
+"phon": "[ɪnˈtend]"
+},
+"fragile": {
+"rid": 46,
+"root": "frag",
+"rootcn": "打碎",
+"br": "frag(碎)+ile(易于)→容易碎",
+"m": "adj.易碎的；脆弱的",
+"phon": "[frædʒ(ə)l]ˈ"
+},
+"intense": {
+"rid": 19,
+"root": "tend",
+"rootcn": "伸",
+"br": "in(向内)+tens(伸)→拉紧到极点",
+"m": "adj.强烈的；剧烈的；紧张的",
+"phon": "[ɪnˈtens]"
+},
+"respect": {
+"rid": 25,
+"root": "spect",
+"rootcn": "看",
+"br": "re(反复)+spect(看)→反复认真看",
+"m": "v.尊重；尊敬 n.方面",
+"phon": "[rɪˈspekt]"
+},
+"dismiss": {
+"rid": 29,
+"root": "mit",
+"rootcn": "送",
+"br": "dis(离开)+miss(送)→送走",
+"m": "v.解雇；解散；驳回",
+"phon": "[dɪsˈmɪs]"
+},
+"tension": {
+"rid": 19,
+"root": "tend",
+"rootcn": "伸",
+"br": "tens(伸)+ion(状态)→拉紧状态",
+"m": "n.紧张；紧张局势",
+"phon": "[ˈtenʃ(ə)n]"
+},
+"survive": {
+"rid": 45,
+"root": "viv",
+"rootcn": "生命",
+"br": "sur(超过)+viv(活)→活下来",
+"m": "v.幸存；生存；艰难挺过",
+"phon": "[sərˈvaɪv]"
+},
+"reverse": {
+"rid": 2,
+"root": "vers",
+"rootcn": "转",
+"br": "re(反)+vers(转)→转到反面",
+"m": "v.使倒转；撤销 n.反面",
+"phon": "[rɪˈvɜrs]"
+},
+"express": {
+"rid": 3,
+"root": "press",
+"rootcn": "压",
+"br": "ex(向外)+press(压)→压出来",
+"m": "v.表达 n.快件 adj.明确的",
+"phon": "[ɪkˈspres]"
+},
+"invert": {
+"rid": 2,
+"root": "vers",
+"rootcn": "转",
+"br": "in(向内)+vert(转)→向内翻转",
+"m": "v.使倒置；使颠倒",
+"phon": "[ɪnˈvɜrt]"
+},
+"distribute": {
+"rid": 27,
+"root": "tribut",
+"rootcn": "给",
+"br": "dis(分开)+tribut(给)→分开给",
+"m": "v.分发；分配；散布",
+"phon": "[dɪˈstrɪbjut]"
+},
+"revolution": {
+"rid": 31,
+"root": "volv",
+"rootcn": "卷/转",
+"br": "re(反复)+volut(转)+ion→翻转过来",
+"m": "n.革命",
+"phon": "[ˌrevəˈʃ(ə)n]"
+},
+"diverse": {
+"rid": 2,
+"root": "vers",
+"rootcn": "转",
+"br": "di(分开)+vers(转)→转开不同",
+"m": "adj.多种多样的；不同的",
+"phon": "[daɪˈvɜrs]"
+},
+"astronomer": {
+"rid": 48,
+"root": "astr",
+"rootcn": "星星",
+"br": "astr(星)+nomy(学科)+er→研究星的人",
+"m": "n.天文学家",
+"phon": "[əˈstrɑnəmər]"
+},
+"extinguish": {
+"rid": 38,
+"root": "tinct",
+"rootcn": "刺激/刺",
+"br": "ex(出)+tingu(刺)→刺灭火势",
+"m": "v.熄灭；扑灭",
+"phon": "[ɪkˈstɪŋɡwɪʃ]"
+},
+"special": {
+"rid": 25,
+"root": "spect",
+"rootcn": "看",
+"br": "spec(看)+ial→外观与众不同",
+"m": "adj.特别的；特殊的",
+"phon": "[speʃ(ə)l]ˈ"
+},
+"specify": {
+"rid": 25,
+"root": "spect",
+"rootcn": "看",
+"br": "spec(看)+ify(使)→说得看得见",
+"m": "v.详细说明；指定",
+"phon": "[ˈspesɪfaɪ]"
+},
+"compel": {
+"rid": 34,
+"root": "pel",
+"rootcn": "推",
+"br": "com(一起)+pel(推)→一起强推",
+"m": "v.强迫；胁迫",
+"phon": "[kəmˈpel]"
+},
+"aspect": {
+"rid": 25,
+"root": "spect",
+"rootcn": "看",
+"br": "a(朝向)+spect(看)→朝某方向看",
+"m": "n.方面；模样；朝向",
+"phon": "[ˈæspekt]"
+},
+"compose": {
+"rid": 1,
+"root": "pose",
+"rootcn": "放",
+"br": "com(一起)+pose(放)→放一起",
+"m": "v.创作；组成；使镇定",
+"phon": "[kəmˈpəʊz]"
+},
+"assign": {
+"rid": 24,
+"root": "sign",
+"rootcn": "标记",
+"br": "as(加强)+sign(标记)→标记给某人",
+"m": "v.分配；指派",
+"phon": "[əˈsaɪn]"
+},
+"assimilate": {
+"rid": 56,
+"root": "sem",
+"rootcn": "相同",
+"br": "as(变成)+sim(相同)+ilate→变相同",
+"m": "v.吸收；消化；使同化",
+"phon": "[əˈsɪməleɪt]"
+},
+"astrology": {
+"rid": 48,
+"root": "astr",
+"rootcn": "星星",
+"br": "astr(星)+ology(学问)→星象学",
+"m": "n.占星术；占星学",
+"phon": "[əˈstrɑlədʒi]"
+},
+"confer": {
+"rid": 35,
+"root": "fer",
+"rootcn": "带/运",
+"br": "con(一起)+fer(带)→把意见带一起",
+"m": "v.授予；商讨",
+"phon": "[kənˈfɜr]"
+},
+"inherited": {
+"rid": 36,
+"root": "her",
+"rootcn": "粘",
+"br": "in(里面)+herit(粘)→粘在血脉里",
+"m": "adj.继承的；遗传的 v.继承",
+"phon": "[ɪnˈherɪtɪd]"
+},
+"interrupted": {
+"rid": 37,
+"root": "rupt",
+"rootcn": "断",
+"br": "inter(中间)+rupt(断)→中间断开",
+"m": "adj.中断的 v.中断",
+"phon": "[ˌɪntəˈrʌptɪd]"
+},
+"attract": {
+"rid": 8,
+"root": "tract",
+"rootcn": "拉/抽",
+"br": "at(朝向)+tract(拉)→拉注意力",
+"m": "v.吸引",
+"phon": "[əˈtrækt]"
+},
+"conserve": {
+"rid": 26,
+"root": "serve",
+"rootcn": "保持/保护",
+"br": "con(共同)+serve(保护)→一起保护",
+"m": "v.保护；保存；节约",
+"phon": "[kənˈsɜrv]"
+},
+"promote": {
+"rid": 22,
+"root": "mot",
+"rootcn": "动",
+"br": "pro(向前)+mot(动)→往前动",
+"m": "v.促进；提拔；推销",
+"phon": "[prəˈməʊt]"
+},
+"construct": {
+"rid": 30,
+"root": "struct",
+"rootcn": "建造",
+"br": "con(一起)+struct(建造)→一起建",
+"m": "v.建造；构造 n.结构（物）",
+"phon": "[kənˈstrʌkt]"
+},
+"exclude": {
+"rid": 10,
+"root": "clud",
+"rootcn": "关",
+"br": "ex(外面)+clud(关)→关在外面",
+"m": "v.排除；排斥",
+"phon": "[ɪkˈd]"
+},
+"resemble": {
+"rid": 56,
+"root": "sem",
+"rootcn": "相同",
+"br": "re(再次)+semble(相同)→看起来相同",
+"m": "v.相似；类似",
+"phon": "[rɪˈzemb(ə)l]"
+},
+"averse": {
+"rid": 2,
+"root": "vers",
+"rootcn": "转",
+"br": "a(离开)+vers(转)→转开不愿",
+"m": "adj.不愿意的；反对的",
+"phon": "[əˈvɜrs]"
+},
+"jurisdiction": {
+"rid": 32,
+"root": "dict",
+"rootcn": "说",
+"br": "jur(法律)+dict(说)+ion→说法律之权",
+"m": "n.管辖权；司法权",
+"phon": "[ˌdʒʊrɪsˈdɪkʃ(ə)n]"
+},
+"tent": {
+"rid": 19,
+"root": "tend",
+"rootcn": "伸",
+"br": "tent(伸)→撑开拉紧的棚子",
+"m": "n.帐篷；帐棚",
+"phon": "[tent]"
+},
+"vacuum": {
+"rid": 14,
+"root": "vac",
+"rootcn": "空",
+"br": "vac(空)+uum→完全空",
+"m": "n.真空；空虚",
+"phon": "[ˈvækjum]"
+},
+"fact": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "fact(做)→做出来的事",
+"m": "n.事实；真相；实际",
+"phon": "[fækt]"
+},
+"prospect": {
+"rid": 25,
+"root": "spect",
+"rootcn": "看",
+"br": "pro(向前)+spect(看)→向前看",
+"m": "n.展望；前景 v.勘探",
+"phon": "[ˈprɑspekt]"
+},
+"unacceptable": {
+"rid": 53,
+"root": "cept",
+"rootcn": "拿",
+"br": "un(不)+cept(拿)+able→不能拿过来",
+"m": "adj.不能接受的",
+"phon": "[ˌʌnəkˈseptəb(ə)l]"
+},
+"factor": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "fact(做)+or(物)→起作用的因素",
+"m": "n.因素；要素；因数",
+"phon": "[ˈfæktər]"
+},
+"observe": {
+"rid": 26,
+"root": "serve",
+"rootcn": "保持/保护",
+"br": "ob(朝向)+serve(看守)→仔细看",
+"m": "v.观察；遵守；庆祝",
+"phon": "[əbˈzɜrv]"
+},
+"oversimplify": {
+"rid": 56,
+"root": "sem",
+"rootcn": "相同",
+"br": "over(过度)+sim(单一)+plify→弄得过简",
+"m": "v.过于简单化",
+"phon": "[ˌəʊvərˈsɪmplɪfaɪ]"
+},
+"supporter": {
+"rid": 50,
+"root": "port",
+"rootcn": "搬运",
+"br": "sup(下面)+port(搬运)+er→从下托的人",
+"m": "n.支持者；拥护者",
+"phon": "[səˈpɔrtər]"
+},
+"uniform": {
+"rid": 4,
+"root": "form",
+"rootcn": "形状/形成",
+"br": "uni(单一)+form(形状)→一个形状",
+"m": "adj.一致的；统一的 n.制服",
+"phon": "[ˈnɪfɔrm]"
+},
+"nation": {
+"rid": 59,
+"root": "nat",
+"rootcn": "出生",
+"br": "nat(出生)+ion(群体)→同出生地的人",
+"m": "n.国家；民族",
+"phon": "[ˈneɪʃ(ə)n]"
+},
+"proficiency": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "pro(向前)+fic(做)+iency→做得很好",
+"m": "n.熟练；精通",
+"phon": "[prəˈfɪʃ(ə)nsi]"
+},
+"declare": {
+"rid": 57,
+"root": "clar",
+"rootcn": "清楚",
+"br": "de(向下)+clar(清楚)→说清楚",
+"m": "v.宣布；宣告；申报",
+"phon": "[dɪˈkler]"
+},
+"nationwide": {
+"rid": 59,
+"root": "nat",
+"rootcn": "出生",
+"br": "nat(出生)+ion(国)+wide→全国范围",
+"m": "adj.全国性的 adv.在全国范围内",
+"phon": "[ˌneɪʃ(ə)nˈwaɪd]"
+},
+"value": {
+"rid": 41,
+"root": "valu",
+"rootcn": "价值",
+"br": "valu(价值)→价值",
+"m": "n.价值；（数）值 v.重视",
+"phon": "[ˈvælju]"
+},
+"native": {
+"rid": 59,
+"root": "nat",
+"rootcn": "出生",
+"br": "nat(出生)+ive(性质)→本地出生",
+"m": "adj.本土的；天生的 n.本地人",
+"phon": "[ˈneɪtɪv]"
+},
+"nature": {
+"rid": 59,
+"root": "nat",
+"rootcn": "出生",
+"br": "nat(出生)+ure(状态)→天生状态",
+"m": "n.自然；本性",
+"phon": "[ˈneɪtʃər]"
+},
+"automobile": {
+"rid": 22,
+"root": "mot",
+"rootcn": "动",
+"br": "auto(自己)+mob(动)→自己会动",
+"m": "n.汽车",
+"phon": "[l]ˈɔtəməbi"
+},
+"deserving": {
+"rid": 26,
+"root": "serve",
+"rootcn": "保持/保护",
+"br": "de(加强)+serve(应得)+ing→应得到的",
+"m": "adj.值得的；应得的",
+"phon": "[dɪˈzɜrvɪŋ]"
+},
+"import": {
+"rid": 50,
+"root": "port",
+"rootcn": "搬运",
+"br": "im(进入)+port(搬运)→运进来",
+"m": "n.进口；重要性 v.进口",
+"phon": "[ˈɪmpɔrt]"
+},
+"unnatural": {
+"rid": 59,
+"root": "nat",
+"rootcn": "出生",
+"br": "un(不)+nat(出生)+ural→非天生的",
+"m": "adj.不自然的；异常的",
+"phon": "[ʌnˈnætʃrəl]"
+},
+"visibility": {
+"rid": 20,
+"root": "vis",
+"rootcn": "看",
+"br": "vis(看)+ibility(能)→能被看见",
+"m": "n.可见性；能见度",
+"phon": "[bɪləti]ˌvɪzəˈ"
+},
+"spring": {
+"rid": 23,
+"root": "spr",
+"rootcn": "散开",
+"br": "spr(迸发)+ing→水涌出/春萌发",
+"m": "n.春天；弹簧；泉 v.跳；跃",
+"phon": "[sprɪŋ]"
+},
+"accept": {
+"rid": 53,
+"root": "cept",
+"rootcn": "拿",
+"br": "ac(朝向)+cept(拿)→拿过来",
+"m": "v.接受；认可；同意",
+"phon": "[əkˈsept]"
+},
+"indictment": {
+"rid": 32,
+"root": "dict",
+"rootcn": "说",
+"br": "in(进入)+dict(说)+ment→把人说进罪",
+"m": "n.起诉；控告；起诉状",
+"phon": "[ɪnˈdaɪtmənt]"
+},
+"offer": {
+"rid": 35,
+"root": "fer",
+"rootcn": "带/运",
+"br": "of(向)+fer(带)→带到面前",
+"m": "n.提议；报价 v.提供",
+"phon": "[ˈɔfər]"
+},
+"survival": {
+"rid": 45,
+"root": "viv",
+"rootcn": "生命",
+"br": "sur(超过)+viv(活)+al→活下来",
+"m": "n.生存；存活；残存物",
+"phon": "[sərˈvaɪv(ə)l]"
+},
+"office": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "op(工作)+fic(做)→做事的地方",
+"m": "n.办公室",
+"phon": "[ˈɑfɪs]"
+},
+"unconventional": {
+"rid": 49,
+"root": "ven",
+"rootcn": "来",
+"br": "un(不)+con(一起)+vent(来)→不合惯例",
+"m": "adj.不合常规的；不寻常的",
+"phon": "[venʃən(ə)l]ˌʌnkənˈ"
+},
+"perception": {
+"rid": 53,
+"root": "cept",
+"rootcn": "拿",
+"br": "per(全部)+cept(拿)+ion→全部拿到",
+"m": "n.感知；看法；洞察力",
+"phon": "[pərˈsepʃ(ə)n]"
+},
+"manufacture": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "manu(手)+fact(做)+ure→用手做",
+"m": "v.（大量）制造；捏造 n.制造",
+"phon": "[ˌmænjuˈfæktʃər]"
+},
+"accord": {
+"rid": 55,
+"root": "cord",
+"rootcn": "心",
+"br": "ac(一致)+cord(心)→心一致",
+"m": "v.符合；给予 n.协议；协调",
+"phon": "[əˈkɔrd]"
+},
+"visa": {
+"rid": 20,
+"root": "vis",
+"rootcn": "看",
+"br": "vis(看)+a→被查验过的文件",
+"m": "n.签证",
+"phon": "[ˈzə]"
+},
+"government-defined": {
+"rid": 39,
+"root": "fin",
+"rootcn": "限制",
+"br": "de(下)+fin(界限)→划定界限定义",
+"m": "adj.政府定义的",
+"phon": "[ˈɡʌvərnməntdɪˈfaɪnd]"
+},
+"distinct": {
+"rid": 38,
+"root": "tinct",
+"rootcn": "刺激/刺",
+"br": "dis(分开)+tinct(刺)→分开刺",
+"m": "adj.有区别的；清晰的；明显的",
+"phon": "[dɪˈstɪŋkt]"
+},
+"presuppose": {
+"rid": 1,
+"root": "pose",
+"rootcn": "放",
+"br": "pre(预先)+sup(下)+pose(放)→先放假设",
+"m": "v.预先假定；以…为先决条件",
+"phon": "[ˌprisəˈpəʊz]"
+},
+"commission": {
+"rid": 29,
+"root": "mit",
+"rootcn": "送",
+"br": "com(全部)+miss(送)+ion→全部交托",
+"m": "n.委员会；佣金 v.委托",
+"phon": "[kəˈmɪʃ(ə)n]"
+},
+"tend": {
+"rid": 19,
+"root": "tend",
+"rootcn": "伸",
+"br": "tend(伸)→伸向；倾向",
+"m": "v.趋向；往往会；照料",
+"phon": "[tend]"
+},
+"react": {
+"rid": 43,
+"root": "act",
+"rootcn": "动",
+"br": "re(再次)+act(动)→回应动作",
+"m": "v.反应",
+"phon": "[riˈækt]"
+},
+"tense": {
+"rid": 19,
+"root": "tend",
+"rootcn": "伸",
+"br": "tens(伸)→拉紧的",
+"m": "adj.紧张的；拉紧的 n.时态",
+"phon": "[tens]"
+},
+"opportunity": {
+"rid": 50,
+"root": "port",
+"rootcn": "搬运",
+"br": "op(向)+port(港口)→顺风入港时机",
+"m": "n.机会；时机",
+"phon": "[ˌɑpərˈtunəti]"
+},
+"suffer": {
+"rid": 35,
+"root": "fer",
+"rootcn": "带/运",
+"br": "suf(下面)+fer(带)→在下面承受",
+"m": "v.遭受；忍受",
+"phon": "[ˈsʌfər]"
+},
+"equation": {
+"rid": 42,
+"root": "equ",
+"rootcn": "相等",
+"br": "equ(相等)+ation(状态)→相等的式子",
+"m": "n.方程式；等式",
+"phon": "[ɪˈkweɪʒ(ə)n]"
+},
+"enact": {
+"rid": 43,
+"root": "act",
+"rootcn": "动",
+"br": "en(使)+act(动)→使法案动起来",
+"m": "v.制定（法律）；扮演",
+"phon": "[ɪˈnækt]"
+},
+"advent": {
+"rid": 49,
+"root": "ven",
+"rootcn": "来",
+"br": "ad(到)+vent(来)→到来",
+"m": "n.到来；出现",
+"phon": "[ˈædvent]"
+},
+"portable": {
+"rid": 50,
+"root": "port",
+"rootcn": "搬运",
+"br": "port(搬运)+able(能)→可搬运的",
+"m": "adj.便携式的 n.便携式设备",
+"phon": "[ˈpɔrtəb(ə)l]"
+},
+"test": {
+"rid": 54,
+"root": "test",
+"rootcn": "测试",
+"br": "test(测试)→验证",
+"m": "v./n.试验；测试",
+"phon": "[test]"
+},
+"vigor": {
+"rid": 45,
+"root": "viv",
+"rootcn": "生命",
+"br": "vig(生命力量)+or→活力",
+"m": "n.精力；活力",
+"phon": "[ˈvɪɡər]"
+},
+"vigour": {
+"rid": 45,
+"root": "viv",
+"rootcn": "生命",
+"br": "vig(生命力量)+our→活力",
+"m": "n.精力；活力",
+"phon": "[ˈvɪɡər]"
+},
+"testify": {
+"rid": 54,
+"root": "test",
+"rootcn": "测试",
+"br": "test(测试)+ify(使)→作证证明",
+"m": "v.作证；证明",
+"phon": "[ˈtestɪfaɪ]"
+},
+"impress": {
+"rid": 3,
+"root": "press",
+"rootcn": "压",
+"br": "im(进入)+press(压)→压到里面",
+"m": "v.使留下深刻印象；使铭记",
+"phon": "[ɪmˈpres]"
+},
+"position": {
+"rid": 1,
+"root": "pose",
+"rootcn": "放",
+"br": "posit(放)+ion(状态)→放置处",
+"m": "n.位置；职位 v.安置",
+"phon": "[pəˈzɪʃ(ə)n]"
+},
+"positive": {
+"rid": 1,
+"root": "pose",
+"rootcn": "放",
+"br": "posit(放)+ive→放下确定的",
+"m": "adj.积极的；正面的",
+"phon": "[ˈpɑzətɪv]"
+},
+"support": {
+"rid": 50,
+"root": "port",
+"rootcn": "搬运",
+"br": "sup(下面)+port(搬运)→从下面托住",
+"m": "v.支持；支撑 n.拥护",
+"phon": "[səˈpɔrt]"
+},
+"assemble": {
+"rid": 56,
+"root": "sem",
+"rootcn": "相同",
+"br": "as(一起)+semble(相同)→聚到一起",
+"m": "v.装配；集合",
+"phon": "[əsemb(ə)l]ˈ"
+},
+"extract": {
+"rid": 8,
+"root": "tract",
+"rootcn": "拉/抽",
+"br": "ex(向外)+tract(抽)→抽出来",
+"m": "v. 提取/拔出 n. 提取物",
+"phon": "[ˈekstrækt]"
+},
+"act": {
+"rid": 43,
+"root": "act",
+"rootcn": "动",
+"br": "act(动)→采取行动",
+"m": "v. 行动/表现 n. 行为",
+"phon": "[ækt]"
+},
+"emotion": {
+"rid": 22,
+"root": "mot",
+"rootcn": "动",
+"br": "e(向外)+motion(动)→情绪动出来",
+"m": "n. 情绪/情感",
+"phon": "[ɪˈməʊʃ(ə)n]"
+},
+"active": {
+"rid": 43,
+"root": "act",
+"rootcn": "动",
+"br": "act(动)+ive(性质)→好动的",
+"m": "adj. 积极的/活跃的",
+"phon": "[ˈæktɪv]"
+},
+"self-serving": {
+"rid": 26,
+"root": "serve",
+"rootcn": "保持/保护",
+"br": "self(自己)+serve(服务)→只为自己",
+"m": "adj. 谋私利的/自私的",
+"phon": "[ˌselfˈsɜrvɪŋ]"
+},
+"suspect": {
+"rid": 25,
+"root": "spect",
+"rootcn": "看",
+"br": "sus(下面)+spect(看)→偷偷往下看",
+"m": "v. 怀疑 n. 嫌疑人",
+"phon": "[səˈspekt]"
+},
+"nonsense": {
+"rid": 6,
+"root": "sens",
+"rootcn": "感/感觉",
+"br": "non(不)+sense(感觉/意义)→无意义",
+"m": "n. 胡说/无意义的话",
+"phon": "[ˈnɑnsens]"
+},
+"visible": {
+"rid": 20,
+"root": "vis",
+"rootcn": "看",
+"br": "vis(看)+ible(能)→能看见",
+"m": "adj. 看得见的/显眼的",
+"phon": "[vɪzəb(ə)l]ˈ"
+},
+"divert": {
+"rid": 2,
+"root": "vers",
+"rootcn": "转",
+"br": "di(分开)+vert(转)→转开",
+"m": "v. 转向/转移",
+"phon": "[daɪˈvɜrt]"
+},
+"instinctive": {
+"rid": 38,
+"root": "tinct",
+"rootcn": "刺激/刺",
+"br": "in(里面)+stinct(刺激)+ive→天生本能",
+"m": "adj. 本能的",
+"phon": "[ɪnˈstɪŋktɪv]"
+},
+"oppressive": {
+"rid": 3,
+"root": "press",
+"rootcn": "压",
+"br": "op(对着)+press(压)+ive→对着压",
+"m": "adj. 压迫的/沉重的",
+"phon": "[əˈpresɪv]"
+},
+"sensible": {
+"rid": 6,
+"root": "sens",
+"rootcn": "感/感觉",
+"br": "sens(感觉)+ible(能)→能控感觉",
+"m": "adj. 明智的/合理的",
+"phon": "[ˈsensəb(ə)l]"
+},
+"good-natured": {
+"rid": 59,
+"root": "nat",
+"rootcn": "出生",
+"br": "good(好)+nat(天生)→天性善良",
+"m": "adj. 脾气好的/温厚的",
+"phon": "[ˌɡʊdˈneɪtʃərd]"
+},
+"reconstruct": {
+"rid": 30,
+"root": "struct",
+"rootcn": "建造",
+"br": "re(重新)+construct(建造)→重新建",
+"m": "v. 重建/重现",
+"phon": "[ˌrikənˈstrʌkt]"
+},
+"visit": {
+"rid": 20,
+"root": "vis",
+"rootcn": "看",
+"br": "vis(看)+it(走)→走去看",
+"m": "v./n. 访问/参观",
+"phon": "[ˈvɪzɪt]"
+},
+"vital": {
+"rid": 45,
+"root": "viv",
+"rootcn": "生命",
+"br": "vit(生命)+al(性质)→关乎生命",
+"m": "adj. 至关重要的/有活力的",
+"phon": "[vaɪt(ə)l]ˈ"
+},
+"uninformed": {
+"rid": 4,
+"root": "form",
+"rootcn": "形状/形成",
+"br": "un(不)+in(入)+form(形成)→没形成认知",
+"m": "adj. 不了解情况的/愚昧的",
+"phon": "[ˌʌnɪnˈfɔrmd]"
+},
+"vivid": {
+"rid": 45,
+"root": "viv",
+"rootcn": "生命",
+"br": "viv(生命)+id(像)→像活的一样",
+"m": "adj. 生动的/栩栩如生的",
+"phon": "[ˈvɪvɪd]"
+},
+"endure": {
+"rid": 18,
+"root": "dur",
+"rootcn": "持久",
+"br": "en(使)+dur(持久)→一直持续",
+"m": "v. 忍受/忍耐",
+"phon": "[ɪnˈdʊr]"
+},
+"fiction": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "fict(做造)+ion→编造出来的事",
+"m": "n. 小说/虚构",
+"phon": "[ˈfɪkʃ(ə)n]"
+},
+"note": {
+"rid": 21,
+"root": "not",
+"rootcn": "知道",
+"br": "not(知道)+e→记下来知道",
+"m": "n. 笔记 v. 注意/记录",
+"phon": "[nəʊt]"
+},
+"actually": {
+"rid": 43,
+"root": "act",
+"rootcn": "动",
+"br": "act(做)+ual+ly→实际行动上",
+"m": "adv. 事实上/实际上",
+"phon": "[æktʃuəli]ˈ"
+},
+"difficult": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "dif(不)+fic(做)+ult→不好做",
+"m": "adj. 困难的",
+"phon": "[ˈdɪfɪkəlt]"
+},
+"erupt": {
+"rid": 37,
+"root": "rupt",
+"rootcn": "断",
+"br": "e(向外)+rupt(断)→向外断裂",
+"m": "v. 爆发/喷发",
+"phon": "[ɪˈrʌpt]"
+},
+"formally": {
+"rid": 4,
+"root": "form",
+"rootcn": "形状/形成",
+"br": "form(形式)+al+ly→讲形式地",
+"m": "adv. 正式地/形式上",
+"phon": "[rməli]ˈfɔ"
+},
+"instructor": {
+"rid": 30,
+"root": "struct",
+"rootcn": "建造",
+"br": "in(里面)+struct(建造)+or(人)→建构知识的人",
+"m": "n. 教员/讲师",
+"phon": "[ɪnˈstrʌktər]"
+},
+"noteworthy": {
+"rid": 21,
+"root": "not",
+"rootcn": "知道",
+"br": "note(注意)+worthy(值得)→值得注意",
+"m": "adj. 值得注意的/显著的",
+"phon": "[rði]ˈnəʊtwɜ"
+},
+"medieval": {
+"rid": 51,
+"root": "med",
+"rootcn": "中间",
+"br": "medi(中间)+eval(时代)→中间时代",
+"m": "adj. 中世纪的",
+"phon": "[ˌmidiˈv(ə)l]"
+},
+"media": {
+"rid": 51,
+"root": "med",
+"rootcn": "中间",
+"br": "med(中间)+ia→中间媒介",
+"m": "n. 媒体/媒介",
+"phon": "[ˈdiə]"
+},
+"notice": {
+"rid": 21,
+"root": "not",
+"rootcn": "知道",
+"br": "not(知道)+ice→让人知道",
+"m": "n. 通知/注意 v. 注意到",
+"phon": "[ˈnəʊtɪs]"
+},
+"redefine": {
+"rid": 39,
+"root": "fin",
+"rootcn": "限制",
+"br": "re(重新)+define(定义)→重新界定",
+"m": "v. 重新定义",
+"phon": "[ˌridɪˈfaɪn]"
+},
+"notion": {
+"rid": 21,
+"root": "not",
+"rootcn": "知道",
+"br": "not(知道)+ion→知道后的想法",
+"m": "n. 概念/观念/想法",
+"phon": "[ˈnəʊʃ(ə)n]"
+},
+"unpretentious": {
+"rid": 19,
+"root": "tend",
+"rootcn": "伸",
+"br": "un(不)+pre(提前)+tent(伸)→不假装",
+"m": "adj. 谦逊的/不夸耀的",
+"phon": "[ˌʌnprɪˈtenʃəs]"
+},
+"inconclusive": {
+"rid": 10,
+"root": "clud",
+"rootcn": "关",
+"br": "in(不)+con(全)+clus(关)→未能定论",
+"m": "adj. 无结论的/不确定的",
+"phon": "[ˌɪnkənˈsɪv]"
+},
+"novel": {
+"rid": 17,
+"root": "nov",
+"rootcn": "新",
+"br": "nov(新)+el→新奇故事",
+"m": "n. 小说 adj. 新颖的",
+"phon": "[ˈnɑv(ə)l]"
+},
+"re-evaluate": {
+"rid": 41,
+"root": "valu",
+"rootcn": "价值",
+"br": "re(重新)+e(出)+valu(价值)→重估价值",
+"m": "v. 再估价/重新评估",
+"phon": "[ˌriɪˈvæljueɪt]"
+},
+"unsustainable": {
+"rid": 40,
+"root": "tain",
+"rootcn": "拿住",
+"br": "un(不)+sus(下面)+tain(托住)→托不住",
+"m": "adj. 不可持续的",
+"phon": "[steɪnəb(ə)l]ˌʌnsəˈ"
+},
+"refer": {
+"rid": 35,
+"root": "fer",
+"rootcn": "带/运",
+"br": "re(再次)+fer(带)→再带出来",
+"m": "v. 提到/参考",
+"phon": "[rɪˈfɜr]"
+},
+"sense": {
+"rid": 6,
+"root": "sens",
+"rootcn": "感/感觉",
+"br": "sens(感觉)→有感觉",
+"m": "n. 感觉/意义 v. 意识到",
+"phon": "[sens]"
+},
+"sentence": {
+"rid": 6,
+"root": "sens",
+"rootcn": "感/感觉",
+"br": "sent(感觉/判断)+ence→判断的话",
+"m": "n. 句子/判决 v. 宣判",
+"phon": "[ˈsentəns]"
+},
+"especially": {
+"rid": 25,
+"root": "spect",
+"rootcn": "看",
+"br": "e(出)+spec(看)→显眼特别",
+"m": "adv. 尤其/特别",
+"phon": "[ɪspeʃəli]ˈ"
+},
+"involvement": {
+"rid": 31,
+"root": "volv",
+"rootcn": "卷/转",
+"br": "in(进入)+volv(卷)+ment→卷进去",
+"m": "n. 参与/卷入",
+"phon": "[ɪnˈvɑlvmənt]"
+},
+"manuscript": {
+"rid": 33,
+"root": "scrib",
+"rootcn": "写",
+"br": "manu(手)+script(写)→手写稿",
+"m": "n. 手稿/原稿",
+"phon": "[ˈmænjuskrɪpt]"
+},
+"receive": {
+"rid": 13,
+"root": "ceive",
+"rootcn": "拿/接收",
+"br": "re(回来)+ceive(接收)→接回来",
+"m": "v. 收到/接收",
+"phon": "[rɪˈv]"
+},
+"reform": {
+"rid": 4,
+"root": "form",
+"rootcn": "形状/形成",
+"br": "re(重新)+form(形状)→重新塑造",
+"m": "n./v. 改革/改造",
+"phon": "[rɪˈfɔrm]"
+},
+"advertise": {
+"rid": 2,
+"root": "vers",
+"rootcn": "转",
+"br": "ad(朝向)+vert(转)+ise→引人转向",
+"m": "v. 做广告/登广告",
+"phon": "[ˈædvərtaɪz]"
+},
+"advertize": {
+"rid": 2,
+"root": "vers",
+"rootcn": "转",
+"br": "ad(朝向)+vert(转)+ize→引人转向",
+"m": "v. 做广告",
+"phon": "[ˌædvəˈtaɪz]"
+},
+"fine": {
+"rid": 39,
+"root": "fin",
+"rootcn": "限制",
+"br": "fin(尽头)→做到极致→好",
+"m": "adj. 好的 n./v. 罚款",
+"phon": "[faɪn]"
+},
+"perfect": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "per(完全)+fect(做)→完全做好",
+"m": "adj. 完美的 v. 使完美",
+"phon": "[ˈpɜrfɪkt]"
+},
+"fine-grained": {
+"rid": 39,
+"root": "fin",
+"rootcn": "限制",
+"br": "fine(精细)+grained(纹理)→纹理细密",
+"m": "adj. 纹理细密的/细致的",
+"phon": "[ˈfaɪnˈɡreɪnd]"
+},
+"finite": {
+"rid": 39,
+"root": "fin",
+"rootcn": "限制",
+"br": "fin(限制)+ite→有限制",
+"m": "adj. 有限的/限定的",
+"phon": "[ˈfaɪnaɪt]"
+},
+"serve": {
+"rid": 26,
+"root": "serve",
+"rootcn": "保持/保护",
+"br": "serve(服务/保持)→为…效劳",
+"m": "v. 服务/供职/服役",
+"phon": "[sɜrv]"
+},
+"adherence": {
+"rid": 36,
+"root": "her",
+"rootcn": "粘",
+"br": "ad(向)+her(粘)+ence→粘着不放",
+"m": "n. 坚持/遵守/粘附",
+"phon": "[ədˈhɪrəns]"
+},
+"inefficiency": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "in(不)+ef(出)+fic(做)→做事低效",
+"m": "n. 低效率/无效",
+"phon": "[fɪʃ(ə)nsi]ˌɪnɪˈ"
+},
+"entertain": {
+"rid": 40,
+"root": "tain",
+"rootcn": "拿住",
+"br": "enter(进入)+tain(拿住)→拿东西进门",
+"m": "v. 娱乐/款待",
+"phon": "[ˌentərˈteɪn]"
+},
+"misconception": {
+"rid": 53,
+"root": "cept",
+"rootcn": "拿",
+"br": "mis(错)+con(一起)+cept(拿)→错误想法",
+"m": "n. 错误认识/误解",
+"phon": "[ˌmɪskənˈsepʃ(ə)n]"
+},
+"literal": {
+"rid": 44,
+"root": "liter",
+"rootcn": "文字",
+"br": "liter(文字)+al(性质)→按文字的",
+"m": "adj. 字面的/逐字的",
+"phon": "[ˈlɪtərəl]"
+},
+"untested": {
+"rid": 54,
+"root": "test",
+"rootcn": "测试",
+"br": "un(不)+test(测试)+ed→未经测试",
+"m": "adj. 未经考验的",
+"phon": "[ˌʌnˈtestɪd]"
+},
+"inequality": {
+"rid": 42,
+"root": "equ",
+"rootcn": "相等",
+"br": "in(不)+equ(相等)+ality→不相等",
+"m": "n. 不平等/不均衡",
+"phon": "[ˌɪnɪˈkwɑləti]"
+},
+"misinformation": {
+"rid": 4,
+"root": "form",
+"rootcn": "形状/形成",
+"br": "mis(错)+inform(告知)→错误告知",
+"m": "n. 错误信息/误传",
+"phon": "[ˌmɪsɪnfərˈmeɪʃ(ə)n]"
+},
+"envisage": {
+"rid": 20,
+"root": "vis",
+"rootcn": "看",
+"br": "en(使)+vis(看)+age→在脑中看到",
+"m": "v. 设想/想象/展望",
+"phon": "[ɪnˈvɪzɪdʒ]"
+},
+"human": {
+"rid": 60,
+"root": "hum",
+"rootcn": "泥土/人",
+"br": "hum(泥土/人)→土造的人",
+"m": "n. 人 adj. 人类的",
+"phon": "[ˈmən]"
+},
+"reject": {
+"rid": 11,
+"root": "ject",
+"rootcn": "射",
+"br": "re(回来)+ject(射)→射回来",
+"m": "v. 拒绝/驳回",
+"phon": "[rɪˈdʒekt]"
+},
+"disassemble": {
+"rid": 56,
+"root": "sem",
+"rootcn": "相同",
+"br": "dis(分开)+as(一起)+semble(相同)→拆开集合",
+"m": "v. 拆卸/解开",
+"phon": "[semb(ə)l]ˌdɪsəˈ"
+},
+"mission": {
+"rid": 29,
+"root": "mit",
+"rootcn": "送",
+"br": "miss(送)+ion→被派出的任务",
+"m": "n. 使命/任务/使团",
+"phon": "[ˈmɪʃ(ə)n]"
+},
+"equal": {
+"rid": 42,
+"root": "equ",
+"rootcn": "相等",
+"br": "equ(相等)→一样多",
+"m": "adj. 相等的 v. 等于",
+"phon": "[ˈkwəl]"
+},
+"maintain": {
+"rid": 40,
+"root": "tain",
+"rootcn": "拿住",
+"br": "main(持续)+tain(拿住)→一直拿住",
+"m": "v. 维持/保养/坚持认为",
+"phon": "[meɪnˈteɪn]"
+},
+"design": {
+"rid": 24,
+"root": "sign",
+"rootcn": "标记",
+"br": "de(向下)+sign(标记)→先画标记",
+"m": "v. 设计/构思 n. 设计",
+"phon": "[dɪˈzaɪn]"
+},
+"isolate": {
+"rid": 12,
+"root": "sol",
+"rootcn": "单独",
+"br": "is(分离)+sol(单独)+ate→变成单独",
+"m": "v. 使孤立/隔离",
+"phon": "[ˈaɪsəleɪt]"
+},
+"object": {
+"rid": 11,
+"root": "ject",
+"rootcn": "射",
+"br": "ob(反)+ject(射)→射到反面",
+"m": "n. 物体 v. 反对",
+"phon": "[ˈɑbdʒekt]"
+},
+"novelist": {
+"rid": 17,
+"root": "nov",
+"rootcn": "新",
+"br": "novel(小说)+ist(人)→写小说的人",
+"m": "n. 小说家",
+"phon": "[ˈnɑvəlɪst]"
+},
+"flu": {
+"rid": 9,
+"root": "flu",
+"rootcn": "流",
+"br": "flu(流)→疫病流行→流感",
+"m": "n. 流感",
+"phon": "[flu]"
+},
+"informality": {
+"rid": 4,
+"root": "form",
+"rootcn": "形状/形成",
+"br": "in(不)+form(形式)+ality→不拘形式",
+"m": "n. 非正式/随便",
+"phon": "[mæləti]ˌɪnfɔrˈ"
+},
+"inherit": {
+"rid": 36,
+"root": "her",
+"rootcn": "粘",
+"br": "in(里面)+herit(粘)→粘在命里",
+"m": "v. 继承/遗传",
+"phon": "[ɪnˈherɪt]"
+},
+"tractor": {
+"rid": 8,
+"root": "tract",
+"rootcn": "拉/抽",
+"br": "tract(拉)+or(物)→牵引的机器",
+"m": "n. 拖拉机",
+"phon": "[ˈtræktər]"
+},
+"inhuman": {
+"rid": 60,
+"root": "hum",
+"rootcn": "泥土/人",
+"br": "in(不)+hum(人)+an→没有人味",
+"m": "adj. 无人性的/野蛮的",
+"phon": "[ɪnˈmən]"
+},
+"remote": {
+"rid": 22,
+"root": "mot",
+"rootcn": "动",
+"br": "re(回)+mot(动)→往回动→远",
+"m": "adj. 偏远的/遥远的",
+"phon": "[rɪˈməʊt]"
+},
+"motorist": {
+"rid": 22,
+"root": "mot",
+"rootcn": "动",
+"br": "mot(动)+or(机器)+ist(人)→开车的人",
+"m": "n. 驾车者",
+"phon": "[ˈməʊtərɪst]"
+},
+"definition": {
+"rid": 39,
+"root": "fin",
+"rootcn": "限制",
+"br": "de(向下)+fin(限制)+ition→划清界限",
+"m": "n. 定义/清晰度",
+"phon": "[ˌdefɪˈnɪʃ(ə)n]"
+},
+"traverse": {
+"rid": 2,
+"root": "vers",
+"rootcn": "转",
+"br": "tra(横)+verse(转)→横着转过去",
+"m": "v. 横穿/横越",
+"phon": "[trəˈvɜrs]"
+},
+"anniversary": {
+"rid": 2,
+"root": "vers",
+"rootcn": "转",
+"br": "anni(年)+vers(转)+ary→一年转一回",
+"m": "n. 周年纪念日",
+"phon": "[rsəri]ˌænɪˈvɜ"
+},
+"remove": {
+"rid": 22,
+"root": "mot",
+"rootcn": "动",
+"br": "re(离开)+move(动)→移走",
+"m": "v. 移开/去掉/搬迁",
+"phon": "[rɪˈv]"
+},
+"evade": {
+"rid": 5,
+"root": "vade",
+"rootcn": "走",
+"br": "e(向外)+vade(走)→走出去",
+"m": "v. 逃避/躲避",
+"phon": "[ɪˈveɪd]"
+},
+"affected": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "af(朝向)+fect(做)→对其做动作",
+"m": "adj. 假装的/受影响的 v. 影响",
+"phon": "[əˈfektɪd]"
+},
+"eventually": {
+"rid": 49,
+"root": "ven",
+"rootcn": "来",
+"br": "e(出)+vent(来)→最后到来的结果",
+"m": "adv. 最后/终于",
+"phon": "[ɪˈventʃuəli]"
+},
+"intent": {
+"rid": 19,
+"root": "tend",
+"rootcn": "伸",
+"br": "in(向内)+tent(伸)→心思伸向",
+"m": "n. 意图 adj. 专注的",
+"phon": "[ɪnˈtent]"
+},
+"transaction": {
+"rid": 43,
+"root": "act",
+"rootcn": "动",
+"br": "trans(转移)+act(做)+ion→转手交易",
+"m": "n. 交易/业务",
+"phon": "[trænˈzækʃ(ə)n]"
+},
+"event": {
+"rid": 49,
+"root": "ven",
+"rootcn": "来",
+"br": "e(向外)+vent(来)→到来的事",
+"m": "n. 事件/大事",
+"phon": "[ɪˈvent]"
+},
+"insensitivity": {
+"rid": 6,
+"root": "sens",
+"rootcn": "感/感觉",
+"br": "in(不)+sens(感觉)+itivity→感觉迟钝",
+"m": "n. 不敏感/麻木不仁",
+"phon": "[ɪnˌsensəˈtɪvəti]"
+},
+"differ": {
+"rid": 35,
+"root": "fer",
+"rootcn": "带/运",
+"br": "dif(分开)+fer(带)→带开不同",
+"m": "v. 不同/相异",
+"phon": "[ˈdɪfər]"
+},
+"evidence": {
+"rid": 20,
+"root": "vis",
+"rootcn": "看",
+"br": "e(出)+vid(看)+ence→看得出来的凭据",
+"m": "n. 证据/证明",
+"phon": "[ˈevɪdəns]"
+},
+"report": {
+"rid": 50,
+"root": "port",
+"rootcn": "搬运",
+"br": "re(回)+port(搬运)→带回消息",
+"m": "v./n. 报告/报道",
+"phon": "[rɪˈpɔrt]"
+},
+"form": {
+"rid": 4,
+"root": "form",
+"rootcn": "形状/形成",
+"br": "form(形状/形成)→成形",
+"m": "n. 形式/表格 v. 组成",
+"phon": "[fɔrm]"
+},
+"insignificant": {
+"rid": 24,
+"root": "sign",
+"rootcn": "标记",
+"br": "in(不)+sign(标记)+ificant→没有重要标记",
+"m": "adj. 无关紧要的",
+"phon": "[ˌɪnsɪɡˈnɪfɪkənt]"
+},
+"private": {
+"rid": 28,
+"root": "priv",
+"rootcn": "个人",
+"br": "priv(个人)+ate→个人的",
+"m": "adj. 私人的",
+"phon": "[ˈpraɪvət]"
+},
+"sign": {
+"rid": 24,
+"root": "sign",
+"rootcn": "标记",
+"br": "sign(标记)→做标记",
+"m": "n. 标志 v. 签名",
+"phon": "[saɪn]"
+},
+"transport": {
+"rid": 50,
+"root": "port",
+"rootcn": "搬运",
+"br": "trans(转移)+port(搬运)→转着运",
+"m": "v./n. 运输",
+"phon": "[ˈtrænspɔrt]"
+},
+"convention": {
+"rid": 49,
+"root": "ven",
+"rootcn": "来",
+"br": "con(一起)+vent(来)→来到一起",
+"m": "n. 大会/习俗/协定",
+"phon": "[kənˈvenʃ(ə)n]"
+},
+"evolve": {
+"rid": 31,
+"root": "volv",
+"rootcn": "卷/转",
+"br": "e(向外)+volve(转)→转出来",
+"m": "v. 进化/演变",
+"phon": "[ɪˈvɑlv]"
+},
+"similar": {
+"rid": 56,
+"root": "sem",
+"rootcn": "相同",
+"br": "sim(相同)+ilar(性质)→相同样子",
+"m": "adj. 相似的/类似的",
+"phon": "[ˈsɪmələr]"
+},
+"exact": {
+"rid": 43,
+"root": "act",
+"rootcn": "动",
+"br": "ex(出)+act(做)→做精确→强求",
+"m": "adj. 精确的 v. 强求",
+"phon": "[ɪɡˈzækt]"
+},
+"formation": {
+"rid": 4,
+"root": "form",
+"rootcn": "形状/形成",
+"br": "form(形成)+ation(结果)→形成的结果",
+"m": "n.形成；排列方式",
+"phon": "[fɔrˈmeɪʃ(ə)n]"
+},
+"inspect": {
+"rid": 25,
+"root": "spect",
+"rootcn": "看",
+"br": "in(里面)+spect(看)→往里看",
+"m": "v.检查；视察",
+"phon": "[ɪnˈspekt]"
+},
+"simple": {
+"rid": 56,
+"root": "sem",
+"rootcn": "相同",
+"br": "sim(同一)+ple(折叠)→只折一层",
+"m": "adj.简单的；朴素的",
+"phon": "[ˈsɪmp(ə)l]"
+},
+"corrupted": {
+"rid": 37,
+"root": "rupt",
+"rootcn": "断",
+"br": "cor(全)+rupt(断)+ed→规则全断",
+"m": "adj.腐败的；毁坏的",
+"phon": "[kəˈrʌptɪd]"
+},
+"specifically": {
+"rid": 25,
+"root": "spect",
+"rootcn": "看",
+"br": "speci(种类)+fic(做)+ally→按种类地",
+"m": "adv.明确地；具体地",
+"phon": "[spəsɪfɪkli]ˈ"
+},
+"impressionable": {
+"rid": 3,
+"root": "press",
+"rootcn": "压",
+"br": "im(进入)+press(压)+ion+able→易被压入",
+"m": "adj.易受影响的",
+"phon": "[ɪmpreʃənəb(ə)l]ˈ"
+},
+"university": {
+"rid": 2,
+"root": "vers",
+"rootcn": "转",
+"br": "uni(一)+vers(转)+ity→转成一体",
+"m": "n.大学",
+"phon": "[rsəti]ˌnɪˈvɜ"
+},
+"move": {
+"rid": 22,
+"root": "mot",
+"rootcn": "动",
+"br": "mov(动)+e→移动",
+"m": "v.移动；搬家",
+"phon": "[muv]"
+},
+"simulate": {
+"rid": 56,
+"root": "sem",
+"rootcn": "相同",
+"br": "sim(相同)+ulate(使)→做得像",
+"m": "v.模仿；模拟；假装",
+"phon": "[ˈsɪmjuleɪt]"
+},
+"depress": {
+"rid": 3,
+"root": "press",
+"rootcn": "压",
+"br": "de(向下)+press(压)→往下压",
+"m": "v.压下；使沮丧；使萧条",
+"phon": "[dɪˈpres]"
+},
+"formula": {
+"rid": 4,
+"root": "form",
+"rootcn": "形状/形成",
+"br": "form(形式)+ula(小东西)→固定形式",
+"m": "n.公式；配方",
+"phon": "[ˈfɔrmjələ]"
+},
+"deprive": {
+"rid": 28,
+"root": "priv",
+"rootcn": "个人",
+"br": "de(拿走)+priv(个人)→从个人拿走",
+"m": "v.剥夺；使丧失",
+"phon": "[dɪˈpraɪv]"
+},
+"except": {
+"rid": 53,
+"root": "cept",
+"rootcn": "拿",
+"br": "ex(出去)+cept(拿)→拿出去",
+"m": "prep.除了 v.把…除外",
+"phon": "[ɪkˈsept]"
+},
+"disaster": {
+"rid": 48,
+"root": "astr",
+"rootcn": "星星",
+"br": "dis(坏)+aster(星)→坏星象",
+"m": "n.灾难；灾害",
+"phon": "[dɪˈzæstər]"
+},
+"reserve": {
+"rid": 26,
+"root": "serve",
+"rootcn": "保持/保护",
+"br": "re(回)+serve(保护)→留着保护",
+"m": "v.保留；预订 n.储备",
+"phon": "[rɪˈzɜrv]"
+},
+"fraction": {
+"rid": 46,
+"root": "frag",
+"rootcn": "打碎",
+"br": "fract(分裂)+ion→分裂出的部分",
+"m": "n.小部分；分数",
+"phon": "[ˈfrækʃ(ə)n]"
+},
+"benefactor": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "bene(好)+fact(做)+or(人)→做好事的人",
+"m": "n.恩人；捐助者",
+"phon": "[ˈbenɪfæktər]"
+},
+"conclusion": {
+"rid": 10,
+"root": "clud",
+"rootcn": "关",
+"br": "con(全部)+clus(关)+ion→全部关上",
+"m": "n.结论；结尾",
+"phon": "[kənˈʒ(ə)n]"
+},
+"corruption": {
+"rid": 37,
+"root": "rupt",
+"rootcn": "断",
+"br": "cor(全)+rupt(断)+ion→规则全断",
+"m": "n.贪污；腐败；堕落",
+"phon": "[kəˈrʌpʃ(ə)n]"
+},
+"finally": {
+"rid": 39,
+"root": "fin",
+"rootcn": "限制",
+"br": "fin(末尾)+al+ly→到最后",
+"m": "adv.最后；终于",
+"phon": "[faɪnəli]ˈ"
+},
+"refined": {
+"rid": 39,
+"root": "fin",
+"rootcn": "限制",
+"br": "re(再)+fin(限制)+ed→再加工过的",
+"m": "adj.精炼的；优雅的",
+"phon": "[rɪˈfaɪnd]"
+},
+"fracture": {
+"rid": 46,
+"root": "frag",
+"rootcn": "打碎",
+"br": "fract(断裂)+ure→断裂",
+"m": "n./v.断裂；骨折",
+"phon": "[ˈfræktʃər]"
+},
+"interact": {
+"rid": 43,
+"root": "act",
+"rootcn": "动",
+"br": "inter(相互)+act(动)→相互动",
+"m": "v.互相作用；交流",
+"phon": "[ˌɪntərˈækt]"
+},
+"simplicity": {
+"rid": 56,
+"root": "sem",
+"rootcn": "相同",
+"br": "sim(同一)+plic(折叠)+ity→只折一层",
+"m": "n.简单；朴素",
+"phon": "[sɪmplɪsəti]ˈ"
+},
+"vacancy": {
+"rid": 14,
+"root": "vac",
+"rootcn": "空",
+"br": "vac(空)+ancy(状态)→空着",
+"m": "n.空缺；空虚",
+"phon": "[ˈveɪkənsi]"
+},
+"vacation": {
+"rid": 14,
+"root": "vac",
+"rootcn": "空",
+"br": "vac(空)+ation→空闲时间",
+"m": "n.假期；度假",
+"phon": "[veɪˈkeɪʃn]"
+},
+"describe": {
+"rid": 33,
+"root": "scrib",
+"rootcn": "写",
+"br": "de(向下)+scribe(写)→写下来",
+"m": "v.描述",
+"phon": "[dɪˈskraɪb]"
+},
+"preserve": {
+"rid": 26,
+"root": "serve",
+"rootcn": "保持/保护",
+"br": "pre(提前)+serve(保护)→提前保护",
+"m": "v.保存；保护",
+"phon": "[prɪˈzɜrv]"
+},
+"retain": {
+"rid": 40,
+"root": "tain",
+"rootcn": "拿住",
+"br": "re(回来)+tain(拿住)→拿回来",
+"m": "v.保留；保持",
+"phon": "[rɪˈteɪn]"
+},
+"claimant": {
+"rid": 7,
+"root": "claim",
+"rootcn": "喊",
+"br": "claim(要求)+ant(人)→提出要求者",
+"m": "n.要求者；索偿人；原告",
+"phon": "[ˈkleɪmənt]"
+},
+"interference": {
+"rid": 35,
+"root": "fer",
+"rootcn": "带/运",
+"br": "inter(中间)+fer(带)+ence→带到中间介入",
+"m": "n.干扰；干涉；妨碍",
+"phon": "[ˌɪntərˈfɪrəns]"
+},
+"observation": {
+"rid": 26,
+"root": "serve",
+"rootcn": "保持/保护",
+"br": "ob(朝向)+serv(看守)+ation→仔细看",
+"m": "n.观察；监视",
+"phon": "[ˌɑbzərˈveɪʃ(ə)n]"
+},
+"performer": {
+"rid": 4,
+"root": "form",
+"rootcn": "形状/形成",
+"br": "per(完全)+form(形成)+er(人)→完整做成的人",
+"m": "n.表演者；执行者",
+"phon": "[pərˈfɔrmər]"
+},
+"retrospection": {
+"rid": 25,
+"root": "spect",
+"rootcn": "看",
+"br": "retro(向后)+spect(看)+ion→向后看",
+"m": "n.回顾",
+"phon": "[ˌretrəˈspekʃ(ə)n]"
+},
+"retrospect": {
+"rid": 25,
+"root": "spect",
+"rootcn": "看",
+"br": "retro(向后)+spect(看)→向后看",
+"m": "n./v.回想；回顾",
+"phon": "[ˈretrəspekt]"
+},
+"dispose": {
+"rid": 1,
+"root": "pose",
+"rootcn": "放",
+"br": "dis(分开)+pose(放)→放别处",
+"m": "v.处理；安排；除去",
+"phon": "[dɪˈspəʊz]"
+},
+"sole": {
+"rid": 12,
+"root": "sol",
+"rootcn": "单独",
+"br": "sol(单独)+e→唯一一个",
+"m": "adj.唯一的 n.鞋底",
+"phon": "[səʊl]"
+},
+"dissatisfaction": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "dis(不)+satis(足够)+fact(做)→做得不够",
+"m": "n.不满",
+"phon": "[ˌdɪsˌsætɪsˈfækʃ(ə)n]"
+},
+"invent": {
+"rid": 49,
+"root": "ven",
+"rootcn": "来",
+"br": "in(进入)+vent(来)→带进世界",
+"m": "v.发明；创造",
+"phon": "[ɪnˈvent]"
+},
+"revise": {
+"rid": 20,
+"root": "vis",
+"rootcn": "看",
+"br": "re(再次)+vis(看)+e→再看一遍",
+"m": "v.修正；温习",
+"phon": "[rɪˈvaɪz]"
+},
+"expose": {
+"rid": 1,
+"root": "pose",
+"rootcn": "放",
+"br": "ex(向外)+pose(放)→往外放",
+"m": "v.暴露；揭露",
+"phon": "[ɪkˈspəʊz]"
+},
+"revive": {
+"rid": 45,
+"root": "viv",
+"rootcn": "生命",
+"br": "re(重新)+viv(活)+e→重新活",
+"m": "v.复苏；复活",
+"phon": "[rɪˈvaɪv]"
+},
+"revitalize": {
+"rid": 45,
+"root": "viv",
+"rootcn": "生命",
+"br": "re(重新)+vit(生命)+al+ize→重新有活力",
+"m": "v.使新生；使复兴",
+"phon": "[ˌriːˈvaɪtəlaɪz]"
+},
+"extent": {
+"rid": 19,
+"root": "tend",
+"rootcn": "伸",
+"br": "ex(向外)+tent(伸)→伸出的范围",
+"m": "n.程度；广度",
+"phon": "[ɪkˈstent]"
+},
+"finish": {
+"rid": 39,
+"root": "fin",
+"rootcn": "限制",
+"br": "fin(末尾)+ish(动词)→到末尾",
+"m": "v.完成；结束",
+"phon": "[ˈfɪnɪʃ]"
+},
+"important": {
+"rid": 50,
+"root": "port",
+"rootcn": "搬运",
+"br": "im(进入)+port(带)+ant→带进来的",
+"m": "adj.重要的",
+"phon": "[ɪmˈpɔrt(ə)nt]"
+},
+"factoid": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "fact(事实)+oid(小东西)→有趣小信息",
+"m": "n.趣闻；有趣的消息",
+"phon": "[ˈfæktɔɪd]"
+},
+"inherent": {
+"rid": 36,
+"root": "her",
+"rootcn": "粘",
+"br": "in(里面)+her(粘)+ent→粘在里面",
+"m": "adj.固有的；内在的",
+"phon": "[ɪnˈhɪrənt]"
+},
+"involve": {
+"rid": 31,
+"root": "volv",
+"rootcn": "卷/转",
+"br": "in(进入)+volve(卷)→卷进去",
+"m": "v.牵涉；包括",
+"phon": "[ɪnˈvɑlv]"
+},
+"species": {
+"rid": 25,
+"root": "spect",
+"rootcn": "看",
+"br": "speci(看)+es→外观相同的一类",
+"m": "n.物种；种类",
+"phon": "[ˈʃiz]"
+},
+"evaluate": {
+"rid": 41,
+"root": "valu",
+"rootcn": "价值",
+"br": "e(出)+valu(价值)+ate→算出价值",
+"m": "v.估价；评价",
+"phon": "[ɪˈvæljueɪt]"
+},
+"mobile": {
+"rid": 22,
+"root": "mot",
+"rootcn": "动",
+"br": "mob(动)+ile(易…的)→易动的",
+"m": "adj.可移动的；易变的",
+"phon": "[məʊb(ə)l]ˈ"
+},
+"pose": {
+"rid": 1,
+"root": "pose",
+"rootcn": "放",
+"br": "pose(放)→摆放出来",
+"m": "v.摆姿势；提出 n.姿势",
+"phon": "[pəʊz]"
+},
+"clarity": {
+"rid": 57,
+"root": "clar",
+"rootcn": "清楚",
+"br": "clar(清楚)+ity(性质)→清楚",
+"m": "n.清楚；清晰",
+"phon": "[ˈklærəti]"
+},
+"offering": {
+"rid": 35,
+"root": "fer",
+"rootcn": "带/运",
+"br": "of(朝向)+fer(带)+ing→带过来给",
+"m": "n.祭品；出售物",
+"phon": "[ˈɔfərɪŋ]"
+},
+"revolutionize": {
+"rid": 31,
+"root": "volv",
+"rootcn": "卷/转",
+"br": "re(反复)+volut(转)+ion+ize→彻底转动",
+"m": "v.彻底变革",
+"phon": "[ˌrevəˈʃənaɪz]"
+},
+"simplify": {
+"rid": 56,
+"root": "sem",
+"rootcn": "相同",
+"br": "sim(同一)+plic(折叠)+ify→只折一层",
+"m": "v.简化",
+"phon": "[ˈsɪmplɪfaɪ]"
+},
+"unintentionally": {
+"rid": 19,
+"root": "tend",
+"rootcn": "伸",
+"br": "un(不)+in(内)+tent(伸)→并非心里打算",
+"m": "adv.非故意地；无意之中",
+"phon": "[tenʃənəli]ˌʌnɪnˈ"
+},
+"fluctuate": {
+"rid": 9,
+"root": "flu",
+"rootcn": "流",
+"br": "flu(流)+ctuate(动作)→像水流动",
+"m": "v.波动；起伏不定",
+"phon": "[ˈflʌktʃueɪt]"
+},
+"posture": {
+"rid": 1,
+"root": "pose",
+"rootcn": "放",
+"br": "pos(放)+ture(状态)→身体摆放的样子",
+"m": "n.姿势；态度",
+"phon": "[ˈpɑstʃər]"
+},
+"conception": {
+"rid": 53,
+"root": "cept",
+"rootcn": "拿",
+"br": "con(一起)+cept(拿)+ion→想法拿到一起",
+"m": "n.构想；概念；怀孕",
+"phon": "[kənˈsepʃ(ə)n]"
+},
+"spread": {
+"rid": 23,
+"root": "spr",
+"rootcn": "散开",
+"br": "spr(散开)+ead→向四周展开",
+"m": "v./n.传播；扩散；展开",
+"phon": "[spred]"
+},
+"effect": {
+"rid": 16,
+"root": "fic",
+"rootcn": "做",
+"br": "ef(出)+fect(做)→做出来的结果",
+"m": "n.影响；效果",
+"phon": "[ɪˈfekt]"
+},
+"asteroid": {
+"rid": 48,
+"root": "astr",
+"rootcn": "星星",
+"br": "aster(星)+oid(像)→像星的",
+"m": "n.小行星",
+"phon": "[ˈæstərɔɪd]"
+},
+"durable": {
+"rid": 18,
+"root": "dur",
+"rootcn": "持久",
+"br": "dur(持久)+able(能…)→能持久",
+"m": "adj.耐用的；持久的",
+"phon": "[ˈdʊrəb(ə)l]"
+},
+"during": {
+"rid": 18,
+"root": "dur",
+"rootcn": "持久",
+"br": "dur(持续)+ing→在持续过程中",
+"m": "prep.在…期间",
+"phon": "[ˈdʊrɪŋ]"
+},
+"predict": {
+"rid": 32,
+"root": "dict",
+"rootcn": "说",
+"br": "pre(提前)+dict(说)→提前说",
+"m": "v.预言；预测",
+"phon": "[prɪˈdɪkt]"
+},
+"prefer": {
+"rid": 35,
+"root": "fer",
+"rootcn": "带/运",
+"br": "pre(前面)+fer(带)→带到前面",
+"m": "v.较喜欢；宁愿",
+"phon": "[prɪˈfɜr]"
+},
+"attend": {
+"rid": 19,
+"root": "tend",
+"rootcn": "伸",
+"br": "at(朝向)+tend(伸)→抻向(关注)",
+"m": "v.出席；照料；注意",
+"phon": "[əˈtend]"
+},
+"airport": {
+"rid": 50,
+"root": "port",
+"rootcn": "搬运",
+"br": "air(航空)+port(港口)→航空港",
+"m": "n.机场；航空港",
+"phon": "[ˈerpɔrt]"
+},
+"attraction": {
+"rid": 8,
+"root": "tract",
+"rootcn": "拉/抽",
+"br": "at(朝向)+tract(拉)+ion→拉过来",
+"m": "n.吸引；吸引力",
+"phon": "[əˈtrækʃ(ə)n]"
+},
+"expression": {
+"rid": 3,
+"root": "press",
+"rootcn": "压",
+"br": "ex(向外)+press(压)+ion→压出来",
+"m": "n.表达；表情",
+"phon": "[ɪkˈspreʃ(ə)n]"
+},
+"immediately": {
+"rid": 51,
+"root": "med",
+"rootcn": "中间",
+"br": "im(不)+medi(中间)+ate+ly→没有中间",
+"m": "adv.立即；马上",
+"phon": "[ɪˈdiətli]"
+},
+"protest": {
+"rid": 54,
+"root": "test",
+"rootcn": "测试",
+"br": "pro(向前)+test(证实)→上前申明",
+"m": "n./v.抗议",
+"phon": "[ˈprəʊtest]"
+},
+"audience": {
+"rid": 47,
+"root": "audi",
+"rootcn": "听",
+"br": "audi(听)+ence(人群)→听的人",
+"m": "n.观众；听众",
+"phon": "[ˈɔdiəns]"
+},
+"audit": {
+"rid": 47,
+"root": "audi",
+"rootcn": "听",
+"br": "audit(听)→旁听后查账",
+"m": "v./n.审计；查账",
+"phon": "[ˈɔdɪt]"
+},
+"consent": {
+"rid": 6,
+"root": "sens",
+"rootcn": "感/感觉",
+"br": "con(共同)+sent(感觉)→感觉一致",
+"m": "n./v.同意；允许",
+"phon": "[kənˈsent]"
+},
+"project": {
+"rid": 11,
+"root": "ject",
+"rootcn": "射",
+"br": "pro(向前)+ject(射)→向前投射",
+"m": "n.项目；计划 v.投射",
+"phon": "[ˈprɑdʒekt]"
+},
+"automotive": {
+"rid": 22,
+"root": "mot",
+"rootcn": "动",
+"br": "auto(自己)+mot(动)+ive→自己动的",
+"m": "adj.汽车的",
+"phon": "[ˌɔtəˈməʊtɪv]"
+},
+"attractiveness": {
+"rid": 8,
+"root": "tract",
+"rootcn": "拉/抽",
+"br": "at(朝向)+tract(拉)+ive+ness→能拉住人",
+"m": "n.吸引力；魅力",
+"phon": "[əˈtræktɪvnəs]"
+},
+"disrespect": {
+"rid": 25,
+"root": "spect",
+"rootcn": "看",
+"br": "dis(不)+re(再)+spect(看)→不认真看",
+"m": "n./v.不尊敬；无礼",
+"phon": "[ˌdɪsrɪˈspekt]"
+},
+"contain": {
+"rid": 40,
+"root": "tain",
+"rootcn": "拿住",
+"br": "con(一起)+tain(拿住)→拿到一起",
+"m": "v.包含；容纳",
+"phon": "[kənˈteɪn]"
+},
+"content": {
+"rid": 40,
+"root": "tain",
+"rootcn": "拿住",
+"br": "con(一起)+tent(拿住)→拿在一起",
+"m": "n.内容 adj.满足的",
+"phon": "[ˈkɑntent]"
+},
+"credit": {
+"rid": 15,
+"root": "cred",
+"rootcn": "相信",
+"br": "cred(相信)+it→相信",
+"m": "n.信用；学分 v.相信",
+"phon": "[ˈkredɪt]"
+},
+"video": {
+"rid": 20,
+"root": "vis",
+"rootcn": "看",
+"br": "vid(看)+eo→能看的影像",
+"m": "n.视频；录像",
+"phon": "[ˈvɪdiəʊ]"
+}
+}

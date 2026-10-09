@@ -1,0 +1,303 @@
+{
+ "list": "五星词汇 Day 01 List 2",
+ "paragraphs": [
+  [
+   {
+    "id": "0-0",
+    "en": "When historians attempt to reconstruct how societies learned to govern intelligent machines, many will [[conclude]] that the turning point was not a single invention but a slow change of attitude."
+   },
+   {
+    "id": "0-1",
+    "en": "The [[initial]] reaction to artificial [[intelligence]] was a mixture of fascination and fear, and even the most [[humble]] laboratory could sense that something [[inevitable]] had begun."
+   },
+   {
+    "id": "0-2",
+    "en": "No single [[instrument]] of policy, however elegant, could [[confine]] the technology within national borders, because its most important [[component]]—mathematical knowledge—remains [[relevant]] and travels invisibly across the [[atmosphere]] of a connected world."
+   }
+  ],
+  [
+   {
+    "id": "1-0",
+    "en": "The [[phenomenon]] first became visible in medicine."
+   },
+   {
+    "id": "1-1",
+    "en": "An algorithm that could [[infect]] public debate as quickly as it processed images began to outperform junior doctors in reading scans, and every [[clinic]] wanted access."
+   },
+   {
+    "id": "1-2",
+    "en": "Yet the [[diagnosis]] produced by a machine carried an [[ambiguous]] legal status: if the software erred, who would [[undergo]] the consequences?"
+   },
+   {
+    "id": "1-3",
+    "en": "Hospitals were [[reluctant]] to act as the testing ground, while patient groups continued to [[allege]] that unaccountable systems would [[devastate]] trust in care."
+   }
+  ],
+  [
+   {
+    "id": "2-0",
+    "en": "Regulators responded with a [[preliminary]] framework."
+   },
+   {
+    "id": "2-1",
+    "en": "A parliamentary [[motion]] proposed that any medical model must [[comply]] with a demanding auditing regime, and an [[advisory]] panel was asked to [[outline]] standards within a [[frame]] of accountability."
+   },
+   {
+    "id": "2-2",
+    "en": "One contested [[clause]] would [[entitle]] patients to demand a human second opinion whenever an automated system issued a [[plausible]] but uncertain result."
+   },
+   {
+    "id": "2-3",
+    "en": "Critics called the draft a [[compromise]] that satisfied nobody; defenders replied that compromise is precisely how a [[democracy]] metabolizes disruption."
+   }
+  ],
+  [
+   {
+    "id": "3-0",
+    "en": "Behind the legal debate lay a deeper question of [[ethos]]."
+   },
+   {
+    "id": "3-1",
+    "en": "Engineers trained to [[exaggerate]] neither risk nor promise found themselves [[upset]] by headlines that seemed designed to [[frustrate]] careful work."
+   },
+   {
+    "id": "3-2",
+    "en": "Many came to [[resent]] the suggestion that their profession lacked a [[conscience]], pointing out that every [[authentic]] researcher they knew would [[contemplate]] failure modes before release."
+   },
+   {
+    "id": "3-3",
+    "en": "Their [[conviction]] was simple: safety is not a marketing slogan but a discipline, as [[constant]] and unglamorous as checking that each [[integer]] in a dosage table is correct before a nurse administers a [[dose]], and as attentive to every [[wrinkle]] in the protocol as to the protocol itself."
+   }
+  ],
+  [
+   {
+    "id": "4-0",
+    "en": "Meanwhile, the economics of the industry grew [[tougher]]."
+   },
+   {
+    "id": "4-1",
+    "en": "A [[multinational]] firm could [[consolidate]] its position by buying any [[promising]] startup, and its [[revenue]] from a single [[subscription]] product might [[eclipse]] the budget of a small state."
+   },
+   {
+    "id": "4-2",
+    "en": "Critics warned that such concentration would [[diminish]] competition and eventually [[disrupt]] the [[domestic]] labor market; enthusiasts countered that scale can [[expedite]] [[primary]] research and [[alleviate]] shortages of expertise."
+   },
+   {
+    "id": "4-3",
+    "en": "The [[dispute]], often conducted in [[rough]] language online, resisted easy resolution, because both sides could [[assert]] supporting evidence."
+   }
+  ],
+  [
+   {
+    "id": "5-0",
+    "en": "Governments experimented."
+   },
+   {
+    "id": "5-1",
+    "en": "One [[bureau]] created a public [[repository]] where any citizen could inspect training data in a standardized [[format]]; another required that every high-stakes system remain [[traceable]] to an accountable human operator."
+   },
+   {
+    "id": "5-2",
+    "en": "A [[sovereign]] wealth fund announced it would [[exploit]] its market weight to reward firms that [[collaborate]] with independent auditors, while a neighboring country's [[statute]] threatened to [[prosecute]] executives whose models caused foreseeable harm."
+   },
+   {
+    "id": "5-3",
+    "en": "Some companies chose to [[retreat]] from the most sensitive sectors rather than accept such [[conditional]] licenses without [[concrete]] safeguards."
+   }
+  ],
+  [
+   {
+    "id": "6-0",
+    "en": "The public conversation remained [[mournful]] at times and triumphant at others."
+   },
+   {
+    "id": "6-1",
+    "en": "A celebrated [[portrait]] of an AI pioneer hung in the national academy beside that of a [[monarch]] from the industrial age, inviting visitors to [[speculate]] about what [[prestige]] would mean in a century when machines [[duplicate]] human skills."
+   },
+   {
+    "id": "6-2",
+    "en": "A traveling theater [[troupe]] staged a play in which an [[undercover]] inspector must [[determine]] whether a beloved schoolteacher is human; the production's emotional climax—rendered [[exquisitely]] by its lead actor—asked audiences to [[appreciate]] how much of identity is performance."
+   }
+  ],
+  [
+   {
+    "id": "7-0",
+    "en": "Education became the next battleground."
+   },
+   {
+    "id": "7-1",
+    "en": "Reformers argued that schools should [[instruct]] students not merely to use tools but to [[track]] their limitations, treating data literacy and [[lingual]] fluency as the modern [[equivalent]] of numeracy."
+   },
+   {
+    "id": "7-2",
+    "en": "Traditionalists feared that an [[infinite]] feed of generated content would [[preoccupy]] young minds and erode the [[commitment]] required for [[deliberation]]."
+   },
+   {
+    "id": "7-3",
+    "en": "A widely shared [[autobiography]] by a former [[counselor]] described how one [[compassionate]] teacher can [[arrest]] a student's drift into despair more reliably than any app; a British edition quoted a school [[counsellor]] making the same point in nearly identical words."
+   }
+  ],
+  [
+   {
+    "id": "8-0",
+    "en": "The sciences offered sobering lessons."
+   },
+   {
+    "id": "8-1",
+    "en": "Research groups tested competing [[hypotheses]] about automation and employment, and the most [[representative]] studies suggested that effects were [[irregular]] across regions—devastating in one town, barely [[discernible]] in the next."
+   },
+   {
+    "id": "8-2",
+    "en": "Economists warned against [[geo-centric]] thinking that treats one nation's experience as universal, and against the temptation to [[assume]] that what is [[previous]] is predictive."
+   },
+   {
+    "id": "8-3",
+    "en": "A [[frequent]] methodological error, they noted, was to [[concentrate]] only on sectors that are easy to measure, ignoring the [[external]] costs borne by families and communities."
+   }
+  ],
+  [
+   {
+    "id": "9-0",
+    "en": "Finance, too, had its reckoning."
+   },
+   {
+    "id": "9-1",
+    "en": "When an automated trading fund collapsed, investigators found its risk model contained a [[dirt-cheap]] assumption that volatility would stay within historical bounds—an error so basic it seemed almost [[implausible]] in hindsight."
+   },
+   {
+    "id": "9-2",
+    "en": "The failure threatened to [[compound]] into a wider crisis until regulators moved to [[overturn]] the fund's exemptions and [[overrule]] its internal appeals."
+   },
+   {
+    "id": "9-3",
+    "en": "The episode did lasting damage to the [[reputation]] of quantitative investing, though defenders insisted that one bad model should not [[condemn]] an entire field, any more than a single forged signature invalidates every ledger of contracts."
+   }
+  ],
+  [
+   {
+    "id": "10-0",
+    "en": "Workplaces adjusted in uneven ways."
+   },
+   {
+    "id": "10-1",
+    "en": "Some firms offered each [[client]] a transparent account of when algorithms were used, hoping that honesty would [[confirm]] their brand's integrity; others preferred [[upfront]] disclosures only when legally compelled."
+   },
+   {
+    "id": "10-2",
+    "en": "Labor unions demanded that no worker be treated as [[inferior]] to software without recourse, and negotiated the right to human [[intervention]] in automated discipline cases, with [[stiff]] penalties for violations."
+   },
+   {
+    "id": "10-3",
+    "en": "A senior manager might [[commend]] a team for questioning its own tools, or quietly penalize the same behavior—an inconsistency that bred [[discontent]] and reminded employees that policy on paper and culture in practice are not always [[loyal]] companions."
+   }
+  ],
+  [
+   {
+    "id": "11-0",
+    "en": "The language of the debate itself mattered."
+   },
+   {
+    "id": "11-1",
+    "en": "Scholars insisted on precise [[terminology]], noting that the [[connotation]] of words like 'intelligence' shapes what the public will tolerate."
+   },
+   {
+    "id": "11-2",
+    "en": "To [[portray]] every model as a potential catastrophe is as misleading as to [[display]] it as an infallible oracle; the responsible course is to remain [[flexible]] in the face of new evidence and to resist the [[arrogant]] certainty that any generation has the final word."
+   },
+   {
+    "id": "11-3",
+    "en": "An [[articulate]] essayist put it well: we [[associate]] machines with certainty because we fear our own doubts, but doubt is the [[catalyst]] of every honest inquiry."
+   }
+  ],
+  [
+   {
+    "id": "12-0",
+    "en": "International coordination proved slow but not impossible."
+   },
+   {
+    "id": "12-1",
+    "en": "A joint [[annual]] report allowed signatories to [[extend]] shared standards gradually, and a mutual-recognition [[concession]] let small nations access audits they could never afford alone."
+   },
+   {
+    "id": "12-2",
+    "en": "Not every government chose to [[conform]]; some treated regulation as an [[alien]] constraint on sovereignty, while others saw cooperation as a [[privilege]] that must be earned through transparency."
+   },
+   {
+    "id": "12-3",
+    "en": "Patient diplomacy—more marathon than sprint—slowly built [[consensus]] around a few core principles: human oversight, [[rigorous]] testing, and the duty to [[prescribe]] remedies when systems fail."
+   }
+  ],
+  [
+   {
+    "id": "13-0",
+    "en": "Ordinary life absorbed the technology in quieter ways."
+   },
+   {
+    "id": "13-1",
+    "en": "A young couple took out a [[mortgage]] priced partly by an algorithm; a retired engineer kept a meticulous [[inventory]] of household devices that listened and learned."
+   },
+   {
+    "id": "13-2",
+    "en": "Citizens learned to [[contact]] regulators through new portals, and [[engagement]] with public consultations reached record levels."
+   },
+   {
+    "id": "13-3",
+    "en": "The [[approximate]] effect of all this was hard to quantify, but few denied that something fundamental had shifted: people no longer treated each new tool as destiny, nor did they dismiss it as a mere [[companion]] to be ignored."
+   },
+   {
+    "id": "13-4",
+    "en": "They had begun, collectively, to [[command]] the terms of adoption."
+   }
+  ],
+  [
+   {
+    "id": "14-0",
+    "en": "Looking back, the most striking feature of the era may be how ordinary the [[extreme]] predictions became."
+   },
+   {
+    "id": "14-1",
+    "en": "The apocalyptic and the utopian both lost their [[appeal]] as the technology settled into the fabric of daily movement—present everywhere, decisive nowhere."
+   },
+   {
+    "id": "14-2",
+    "en": "What endured was a quieter lesson: institutions [[deserve]] trust only when they remain open to revision, and every generation must earn again the right to [[anticipate]] the future rather than merely inherit it."
+   },
+   {
+    "id": "14-3",
+    "en": "The [[potential]] of any tool is inseparable from the character of those who wield it."
+   }
+  ],
+  [
+   {
+    "id": "15-0",
+    "en": "A final [[tribute]] belongs to the skeptics who refused easy answers—the auditors, the dissenting engineers, the scholars who kept asking whether a system that seemed credible was also just."
+   },
+   {
+    "id": "15-1",
+    "en": "Their work was rarely glamorous; it offered no simple formula, only the unforgiving craft of testing claims against reality."
+   },
+   {
+    "id": "15-2",
+    "en": "If the coming century learns anything from this one, it should be that wisdom is not the [[possession]] of any single discipline or nation, but a shared practice—patient, corrigible, and stubbornly human."
+   },
+   {
+    "id": "15-3",
+    "en": "No statute, however carefully drafted, can replace the judgment of citizens willing to think; and no machine, however capable, can [[exhaust]] the questions that thinking will continue to raise."
+   }
+  ],
+  [
+   {
+    "id": "16-0",
+    "en": "The record of those years, preserved in every public [[archive]] and family memory, reads less like a revolution than an education."
+   },
+   {
+    "id": "16-1",
+    "en": "Societies did not solve the problem of intelligent machines; they learned to live inside it, revising their answers as evidence grew and building on what each [[predecessor]] had attempted."
+   },
+   {
+    "id": "16-2",
+    "en": "Perhaps that is the only honest ending available: not a triumph, not a surrender, but a continuing conversation—one that each generation joins, alters, and passes on."
+   }
+  ]
+ ]
+}

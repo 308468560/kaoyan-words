@@ -1,0 +1,243 @@
+{
+ "list": "五星词汇 Day 01 List 2",
+ "zh": [
+  [
+   "当历史学家试图还原社会是如何学会治理智能机器的，许多人会得出结论：转折点并非某一项单独的发明，而是态度上一场缓慢的转变。",
+   "人们对人工智能最初的反应，既着迷又恐惧；即便是最不起眼的实验室，也能察觉到某种不可避免的事情已经拉开序幕。",
+   "任何单一的政策手段，无论设计得多么精巧，都无法把这项技术封锁在国界之内，因为它最重要的组成部分——数学知识——始终具有现实意义，并在互联互通的世界中无形地穿行于天地之间。"
+  ],
+  [
+   "这一现象最初是在医学领域显现出来的。",
+   "一种算法既能以处理图像般的速度浸染公共讨论，又开始在解读扫描影像方面胜过初级医生，于是每家诊所都希望获得使用权限。",
+   "然而，由机器给出的诊断在法律上地位模糊：倘若软件出错，后果将由谁来承受？",
+   "医院不愿充当试验场，而患者团体则不断声称，那些无人担责的系统会摧毁人们对医疗服务的信任。"
+  ],
+  [
+   "监管者以一个初步框架作为回应。",
+   "一项议会动议提出，任何医疗模型都必须遵守一套严苛的审计制度；一个顾问小组则受命在问责框架之内拟定标准纲要。",
+   "其中一项备受争议的条款规定，每当自动化系统给出看似合理却并不确定的结果时，患者都有权要求由人类医生再次诊断。",
+   "批评者称这份草案是谁都不满意的折中产物；支持者则回应说，民主制度恰恰是靠妥协来消化种种冲击的。"
+  ],
+  [
+   "法律争论的背后，潜藏着一个更深层的精神气质问题。",
+   "工程师所受的训练要求他们既不夸大风险、也不夸大前景，可他们却发现自己被那些似乎存心要阻挠严谨工作的新闻标题弄得心烦意乱。",
+   "许多人逐渐反感那种暗示其行业缺乏良知的说法，他们指出，自己认识的每一位真正的研究者，在成果发布前都会深思各种失败模式。",
+   "他们的信念很简单：安全不是营销口号，而是一种纪律；它如同护士给药前核对剂量表上每一个整数是否正确那般，恒久不变、毫不光鲜，又对规程中每一处细微褶皱都倾注与对规程本身同样多的关注。"
+  ],
+  [
+   "与此同时，这个行业的经济生态变得愈发艰难。",
+   "跨国公司可以收购任何一家有前途的初创企业来巩固自身地位，而它仅凭一款订阅产品获得的收入，就可能让一个小国的预算相形见绌。",
+   "批评者警告说，这种集中会削弱竞争，并最终扰乱国内劳动力市场；热衷者则反驳道，规模能够加快基础研究，缓解专业技能的短缺。",
+   "这场在网上常以粗鄙言辞展开的争论，迟迟难以轻易化解，因为双方都能举出支持自己的证据。"
+  ],
+  [
+   "各国政府纷纷展开试验。",
+   "某局建立了一个公共资料库，任何公民都能以标准化格式查看其中的训练数据；另一个机构则要求，每一个高风险系统都必须可追溯到一名承担责任的人类操作员。",
+   "一只主权财富基金宣布，将利用其市场影响力奖励那些与独立审计机构合作的公司；而邻国的一项法规则威胁要起诉其模型造成可预见损害的高管。",
+   "一些公司选择从最敏感的行业撤出，也不愿在缺乏具体保障措施的情况下接受这类附条件的许可。"
+  ],
+  [
+   "公众的讨论时而哀伤，时而振奋。",
+   "国家学院里，一幅享有盛誉的人工智能先驱画像与工业时代某位君主的画像并排悬挂，引得参观者纷纷遐想：当机器能够复制人类技能时，再过一个世纪，威望将会意味着什么。",
+   "一个巡回剧团上演了一出戏：剧中一名卧底督察必须查明一位深受爱戴的教师究竟是不是人类；该剧的情感高潮——经主演的精湛演绎——引导观众去体会，身份之中究竟有多少成分是表演。"
+  ],
+  [
+   "教育成了下一个战场。",
+   "改革者主张，学校不仅要教导学生使用工具，还要让他们追踪工具的局限，把数据素养与语言流畅视为现代版的算术能力。",
+   "传统主义者担心，无穷无尽的生成内容推送会占据年轻人的头脑，侵蚀深思熟虑所需要的投入与定力。",
+   "一位前咨询师所写、被广泛转发的自传讲述了一位富有同情心的教师如何比任何应用程序都更可靠地阻止学生滑向绝望；该书的英国版引用了一位学校辅导员的话，用几乎一模一样的措辞表达了同样的观点。"
+  ],
+  [
+   "科学提供了发人深省的教训。",
+   "各研究小组检验了关于自动化与就业的种种相互竞争的假说，最具代表性的研究表明，其影响在不同地区并不均衡——在一座城镇是毁灭性的，在邻镇却几乎难以察觉。",
+   "经济学家告诫人们，要警惕把一国经验当作普遍规律的“地域中心式”思维，也要抵制那种想当然地认为既往之事便能预示未来的诱惑。",
+   "他们指出，一个常见的方法论错误，是只关注那些易于衡量的部门，却忽视了家庭与社区所承担的外部成本。"
+  ],
+  [
+   "金融业也迎来了它的清算时刻。",
+   "当一只自动化交易基金崩盘时，调查人员发现其风险模型包含一个廉价而轻率的假设：波动率会始终处于历史区间之内——这个错误如此低级，事后看来简直令人难以置信。",
+   "这场失败险些恶化为一场范围更广的危机，直到监管者出手撤销该基金的豁免权、驳回其内部申诉，局势才得以控制。",
+   "这一事件对量化投资的声誉造成了持久损害，不过支持者坚持认为，不应因一个糟糕的模型就否定整个领域，正如不能因一枚伪造的签名就让整本合同台账失效。"
+  ],
+  [
+   "职场以参差不齐的方式做出了调整。",
+   "一些公司向每位客户透明地说明算法在何时得到使用，希望这份诚实能印证其品牌的诚信；另一些公司则只在受到法律强制时才肯预先披露。",
+   "工会要求，不得让工人在没有申诉渠道的情况下被视作不如软件，并争取到在自动化纪律处分案件中由人工介入的权利，对违规者处以严厉的惩罚。",
+   "一位高级管理者可能会表扬一个敢于质疑自家工具的团队，也可能悄悄惩罚同样的行为——这种前后不一滋生了不满，也提醒员工：纸面上的制度与实践中的文化，并不总是形影不离的伙伴。"
+  ],
+  [
+   "争论所使用的语言本身，也至关重要。",
+   "学者们坚持使用精确的术语，并指出“智能”这类词的隐含意义，会塑造公众所能容忍的边界。",
+   "把每个模型都描绘成潜在的灾难，与把它展示为永不犯错的神谕同样具有误导性；负责任的做法，是在新证据面前保持灵活，并抵制那种傲慢的确信——以为任何一代人都能一锤定音。",
+   "一位善于表达的散文家说得好：我们之所以把机器与确定性联系在一起，是因为我们害怕自己心中的疑虑；然而，怀疑正是一切诚实探究的催化剂。"
+  ],
+  [
+   "国际协调虽进展缓慢，却并非不可能。",
+   "一份联合年度报告使各签署方得以逐步推广共同标准，而一项互认让步安排则让小国得以获得它们独自永远负担不起的审计服务。",
+   "并非每个政府都选择遵从；有些把监管视为对主权的外来约束，另一些则把合作看作一种必须以透明来赢得的特权。",
+   "耐心的外交——与其说是短跑，不如说是马拉松——慢慢围绕几项核心原则建立起共识：人类监督、严格测试，以及在系统失效时规定补救措施的责任。"
+  ],
+  [
+   "日常生活以更为安静的方式接纳了这项技术。",
+   "一对年轻夫妇办理了一笔部分由算法定价的抵押贷款；一位退休工程师则一丝不苟地登记着家中那些会倾听、会学习的设备。",
+   "公民学会了通过新的门户网站联系监管机构，公众对公共咨询的参与度也创下历史新高。",
+   "这一切所带来的大致影响难以量化，但几乎没有人否认，某种根本性的东西已经改变：人们不再把每一件新工具视为宿命，也不再把它贬作无足轻重、可以忽略的附属品。",
+   "他们已经开始集体主导技术采用的条件。"
+  ],
+  [
+   "回首往事，这个时代最引人注目的特征，或许就是那些极端预言最终变得何其平常。",
+   "随着技术融入日常往来的肌理，末日论调与乌托邦论调都失去了吸引力——它无处不在，却没有任何一处的决定真正由它作出。",
+   "留存下来的是一个更为沉静的教训：制度唯有始终乐于接受修正，才配得到信任；每一代人都必须重新赢得预判未来的权利，而不是仅仅把未来继承下来。",
+   "任何工具的潜力，都与挥舞它的人的品格密不可分。"
+  ],
+  [
+   "最后的敬意，属于那些拒绝简单答案的怀疑者——审计人员、持不同意见的工程师，以及那些不断追问“一个看似可信的系统是否也同样公正”的学者。",
+   "他们的工作很少光鲜亮丽；它提供不了简单的公式，唯有把种种主张放到现实面前加以检验这种毫不容情的手艺。",
+   "如果即将到来的世纪能从这个世纪学到点什么，那应当是：智慧不为任何单一学科或国家所占有，而是一种共同的实践——耐心、可被纠正，并且固执地属于人类。",
+   "任何法令，无论起草得多么审慎，都无法取代乐于思考的公民的判断力；任何机器，无论多么强大，也无法穷尽思考将不断提出的问题。"
+  ],
+  [
+   "那些岁月的记录，保存在每一座公共档案馆和每一段家庭记忆之中，读起来与其说像一场革命，不如说像一场教育。",
+   "社会并没有解决智能机器的问题；他们学会了在这个问题之中生活，随着证据增多而修正自己的答案，并在前人每一次尝试的基础上继续建设。",
+   "或许，这便是唯一诚实可得的结局：不是胜利，也不是投降，而是一场持续的对话——每一代人都加入其中，加以改变，再将它传递下去。"
+  ]
+ ],
+ "grammar": [
+  {
+   "pid": 0,
+   "sid": 2,
+   "title": "however 引导的让步插入语与 because 原因状语从句",
+   "skeleton": "No single instrument ..., however elegant, could confine ..., because its ... component—...—remains ... and travels ...",
+   "parts": [
+    {"role": "主语", "text": "No single instrument of policy", "note": "核心主语是 instrument，no single 加强语气，译作“任何单一的政策手段都不……”"},
+    {"role": "让步插入语", "text": "however elegant", "note": "相当于 no matter how elegant it is，省略了主语与 be 动词，作让步状语"},
+    {"role": "谓语部分", "text": "could confine the technology within national borders", "note": "confine sth within... 把……限制在……之内；情态动词 could 表“能够”"},
+    {"role": "原因状语从句", "text": "because its most important component—mathematical knowledge—remains relevant and travels invisibly across the atmosphere of a connected world", "note": "从句含两个并列谓语 remains relevant 与 travels invisibly；破折号之间是 component 的同位语"}
+   ],
+   "points": [
+    "“however + 形容词/副词”相当于 no matter how...，引导让步状语，常以插入语形式出现并省略主谓，翻译时可前置为“无论多么……”",
+    "because 引导原因状语从句，从句中 and 并列 remains 与 travels 两个谓语，共享主语 component，阅读时要防止把第二个谓语误判为独立句子",
+    "破折号之间的 mathematical knowledge 是同位语，对 component 作解释说明，翻译时可保留破折号或改写为“即……”",
+    "翻译技巧：先处理让步插入语，再按“主句 + 因为从句”的汉语因果语序重组，长定语 of a connected world 宜译为独立的短句"
+   ]
+  },
+  {
+   "pid": 3,
+   "sid": 3,
+   "title": "not...but... 平行结构与两组并列的 as...as 比较结构",
+   "skeleton": "safety is not ... but ..., as constant ... as checking that ..., and as attentive to ... as to ...",
+   "parts": [
+    {"role": "主句", "text": "Their conviction was simple", "note": "冒号之后的内容是对 simple 的具体说明，起同位解释作用"},
+    {"role": "并列表语", "text": "safety is not a marketing slogan but a discipline", "note": "not...but... 连接两个对等名词短语，意为“不是……而是……”"},
+    {"role": "比较结构一", "text": "as constant and unglamorous as checking that each integer in a dosage table is correct before a nurse administers a dose", "note": "as...as 之间是两个并列形容词；checking 为动名词，后接 that 宾语从句，before 引导时间状语从句"},
+    {"role": "比较结构二", "text": "as attentive to every wrinkle in the protocol as to the protocol itself", "note": "与上一组 as...as 平行，第二个 as 之后省略了与上文相同的 attentive"}
+   ],
+   "points": [
+    "not A but B 是平行结构，要求 A、B 语法成分对等，语气上先否定后肯定，译文可用“不是……而是……”保持对比",
+    "and 并列两个 as...as... 结构，共同作后置定语修饰 a discipline；第二个结构中 as to the protocol itself 是省略形式，相当于 as attentive to the protocol itself",
+    "checking that... 中 that 引导宾语从句；before 引导时间状语从句交代动作先后",
+    "翻译技巧：英语的多重后置比较定语不宜直译成一长串“的”，应先译主干“安全是一种纪律”，再用“像……一样；对……也同样……”分层展开"
+   ]
+  },
+  {
+   "pid": 13,
+   "sid": 3,
+   "title": "nor 位于分句句首引起的部分倒装",
+   "skeleton": "... few denied that ...: people no longer treated ..., nor did they dismiss it as ...",
+   "parts": [
+    {"role": "并列分句一", "text": "The approximate effect of all this was hard to quantify", "note": "be hard to do 中不定式用主动形式表示被动含义，即“难以被量化”"},
+    {"role": "并列分句二", "text": "but few denied that something fundamental had shifted", "note": "that 引导 denied 的宾语从句；few 形式肯定、意义否定，意为“几乎没有”"},
+    {"role": "同位解释句", "text": "people no longer treated each new tool as destiny", "note": "冒号后解释 shifted 的具体内容；treat sth as sth 把……当作……"},
+    {"role": "倒装分句", "text": "nor did they dismiss it as a mere companion to be ignored", "note": "否定词 nor 位于句首引起部分倒装，助动词 did 提至主语之前；to be ignored 作后置定语修饰 companion"}
+   ],
+   "points": [
+    "nor/neither/never/seldom 等否定意义的词置于分句句首时，句子要部分倒装：nor + 助动词/情态动词 + 主语 + 动词原形",
+    "deny 后接 that 宾语从句；few denied 是隐含否定，译作“几乎没有人否认”，注意不要把意思译反",
+    "不定式 to be ignored 作 companion 的后置定语且含被动意味，可译为“可以被忽视的、无足轻重的”",
+    "翻译技巧：倒装句翻译时先还原为正常语序 they did not dismiss it either，再按汉语习惯译为“也不把它当作……”，无需保留倒装形式"
+   ]
+  }
+ ],
+ "extra": {
+  "reconstruct": {"phon": "/ˌriːkənˈstrʌkt/", "def": "v.重建；复原；再现"},
+  "turning point": {"phon": "", "def": "n.转折点"},
+  "fascination": {"phon": "/ˌfæsɪˈneɪʃn/", "def": "n.着迷；迷恋；魅力"},
+  "algorithm": {"phon": "/ˈælɡərɪðəm/", "def": "n.算法；计算程序"},
+  "outperform": {"phon": "/ˌaʊtpəˈfɔːm/", "def": "v.胜过；超过；做得比……好"},
+  "unaccountable": {"phon": "/ˌʌnəˈkaʊntəbl/", "def": "adj.不需承担责任的；无法解释的"},
+  "testing ground": {"phon": "", "def": "n.试验场；试点"},
+  "framework": {"phon": "/ˈfreɪmwɜːk/", "def": "n.框架；构架；机制"},
+  "parliamentary": {"phon": "/ˌpɑːləˈmentri/", "def": "adj.议会的；国会的"},
+  "regime": {"phon": "/reɪˈʒiːm/", "def": "n.管理制度；体制；政权"},
+  "accountability": {"phon": "/əˌkaʊntəˈbɪləti/", "def": "n.问责制；应负责任"},
+  "headlines": {"phon": "/ˈhedlaɪnz/", "def": "n.头条新闻；大字标题（复数）"},
+  "profession": {"phon": "/prəˈfeʃn/", "def": "n.行业；职业；专业界"},
+  "slogan": {"phon": "/ˈsləʊɡən/", "def": "n.口号；标语"},
+  "discipline": {"phon": "/ˈdɪsəplɪn/", "def": "n.纪律；学科；自律 v.惩戒"},
+  "dosage": {"phon": "/ˈdəʊsɪdʒ/", "def": "n.（药物）剂量；用量"},
+  "protocol": {"phon": "/ˈprəʊtəkɒl/", "def": "n.规程；协议；礼仪"},
+  "startup": {"phon": "/ˈstɑːtʌp/", "def": "n.初创公司；新兴企业"},
+  "countered": {"phon": "/ˈkaʊntəd/", "def": "v.反驳；回击（counter 的过去式）"},
+  "shortages": {"phon": "/ˈʃɔːtɪdʒɪz/", "def": "n.不足；短缺（复数）"},
+  "expertise": {"phon": "/ˌekspɜːˈtiːz/", "def": "n.专门知识；专业技能"},
+  "high-stakes": {"phon": "/ˌhaɪˈsteɪks/", "def": "adj.高风险的；利害攸关的"},
+  "foreseeable": {"phon": "/fɔːˈsiːəbl/", "def": "adj.可预见的；预料得到的"},
+  "sectors": {"phon": "/ˈsektəz/", "def": "n.行业；部门；领域（复数）"},
+  "safeguards": {"phon": "/ˈseɪfɡɑːdz/", "def": "n.安全措施；保障条款（复数）"},
+  "celebrated": {"phon": "/ˈselɪbreɪtɪd/", "def": "adj.著名的；受人崇敬的"},
+  "academy": {"phon": "/əˈkædəmi/", "def": "n.学院；研究院；学会"},
+  "staged a play": {"phon": "", "def": "上演一出戏剧"},
+  "climax": {"phon": "/ˈklaɪmæks/", "def": "n.高潮；顶点"},
+  "limitations": {"phon": "/ˌlɪmɪˈteɪʃnz/", "def": "n.局限；限制因素（复数）"},
+  "literacy": {"phon": "/ˈlɪtərəsi/", "def": "n.读写能力；素养"},
+  "fluency": {"phon": "/ˈfluːənsi/", "def": "n.流利；流畅"},
+  "numeracy": {"phon": "/ˈnjuːmərəsi/", "def": "n.数理能力；计算素养"},
+  "erode": {"phon": "/ɪˈrəʊd/", "def": "v.侵蚀；逐步削弱"},
+  "automation": {"phon": "/ˌɔːtəˈmeɪʃn/", "def": "n.自动化；自动操作"},
+  "methodological": {"phon": "/ˌmeθədəˈlɒdʒɪkl/", "def": "adj.方法论的；方法上的"},
+  "borne": {"phon": "/bɔːn/", "def": "v.承担；承受（bear 的过去分词）"},
+  "reckoning": {"phon": "/ˈrekənɪŋ/", "def": "n.清算；算总账；估算"},
+  "volatility": {"phon": "/ˌvɒləˈtɪləti/", "def": "n.波动性；易变；不稳定"},
+  "in hindsight": {"phon": "", "def": "事后看来；后见之明"},
+  "episode": {"phon": "/ˈepɪsəʊd/", "def": "n.事件；一段经历；一集"},
+  "quantitative": {"phon": "/ˈkwɒntɪtətɪv/", "def": "adj.量化的；定量的"},
+  "forged": {"phon": "/fɔːdʒd/", "def": "adj.伪造的；锻造的 v.伪造（forge 过去式）"},
+  "ledger": {"phon": "/ˈledʒə/", "def": "n.分类账；台账"},
+  "disclosures": {"phon": "/dɪsˈkləʊʒəz/", "def": "n.披露；公开的信息（复数）"},
+  "compelled": {"phon": "/kəmˈpeld/", "def": "v.强迫；迫使（compel 的过去式/分词）"},
+  "recourse": {"phon": "/rɪˈkɔːs/", "def": "n.求助；依靠；追索权"},
+  "penalties": {"phon": "/ˈpenltiz/", "def": "n.处罚；罚金；不利后果（复数）"},
+  "inconsistency": {"phon": "/ˌɪnkənˈsɪstənsi/", "def": "n.前后不一；不一致"},
+  "catastrophe": {"phon": "/kəˈtæstrəfi/", "def": "n.大灾难；浩劫"},
+  "misleading": {"phon": "/ˌmɪsˈliːdɪŋ/", "def": "adj.误导性的；引入歧途的"},
+  "infallible": {"phon": "/ɪnˈfæləbl/", "def": "adj.永无过失的；绝对可靠的"},
+  "oracle": {"phon": "/ˈɒrəkl/", "def": "n.神谕；传神谕者；预言"},
+  "inquiry": {"phon": "/ɪnˈkwaɪəri/", "def": "n.探究；调查；询问"},
+  "coordination": {"phon": "/kəʊˌɔːdɪˈneɪʃn/", "def": "n.协调；配合"},
+  "signatories": {"phon": "/ˈsɪɡnətriz/", "def": "n.签署方；签约国（复数）"},
+  "transparency": {"phon": "/trænsˈpærənsi/", "def": "n.透明；透明度"},
+  "diplomacy": {"phon": "/dɪˈpləʊməsi/", "def": "n.外交；外交手腕"},
+  "oversight": {"phon": "/ˈəʊvəsaɪt/", "def": "n.监督；疏忽"},
+  "took out": {"phon": "", "def": "办理（贷款、保险）；取出"},
+  "meticulous": {"phon": "/məˈtɪkjələs/", "def": "adj.一丝不苟的；注意细节的"},
+  "consultations": {"phon": "/ˌkɒnslˈteɪʃnz/", "def": "n.咨询；征求意见会（复数）"},
+  "quantify": {"phon": "/ˈkwɒntɪfaɪ/", "def": "v.量化；以数量表示"},
+  "adoption": {"phon": "/əˈdɒpʃn/", "def": "n.采用；采纳；收养"},
+  "apocalyptic": {"phon": "/əˌpɒkəˈlɪptɪk/", "def": "adj.世界末日的；灾难性的"},
+  "utopian": {"phon": "/juːˈtəʊpiən/", "def": "adj.乌托邦式的；空想的"},
+  "fabric": {"phon": "/ˈfæbrɪk/", "def": "n.织物；结构；肌理"},
+  "institutions": {"phon": "/ˌɪnstɪˈtjuːʃnz/", "def": "n.制度；机构（复数）"},
+  "revision": {"phon": "/rɪˈvɪʒn/", "def": "n.修改；修订；复习"},
+  "inherit": {"phon": "/ɪnˈherɪt/", "def": "v.继承；经遗传而得"},
+  "wield": {"phon": "/wiːld/", "def": "v.掌握；使用（工具、权力）"},
+  "skeptics": {"phon": "/ˈskeptɪks/", "def": "n.怀疑者；持怀疑态度的人（复数）"},
+  "dissenting": {"phon": "/dɪˈsentɪŋ/", "def": "adj.持不同意见的；反对的"},
+  "credible": {"phon": "/ˈkredəbl/", "def": "adj.可信的；可靠的"},
+  "formula": {"phon": "/ˈfɔːmjələ/", "def": "n.公式；方案；配方"},
+  "corrigible": {"phon": "/ˈkɒrɪdʒəbl/", "def": "adj.可纠正的；可矫正的"},
+  "stubbornly": {"phon": "/ˈstʌbənli/", "def": "adv.顽固地；倔强地"},
+  "preserved": {"phon": "/prɪˈzɜːvd/", "def": "v.保存；保留（preserve 的过去式/分词）"},
+  "triumph": {"phon": "/ˈtraɪʌmf/", "def": "n.胜利；巨大成就 v.获胜"},
+  "surrender": {"phon": "/səˈrendə/", "def": "n./v.投降；放弃；交出"}
+ }
+}
