@@ -193,7 +193,7 @@ JS = r"""
 const QUEUE_KEY='ky_vocab_queue_v2', PREFS_KEY='ky_prefs_v2';
 let queue=[];
 try{queue=JSON.parse(localStorage.getItem(QUEUE_KEY)||'[]');}catch(e){queue=[];}
-let prefs={mode:'bi',fs:17,accent:'en-US',gramHL:false,rootOnly:false};
+let prefs={mode:'bi',fs:17,accent:'en-US',gramHL:false,rootOnly:false,autosp:true};
 try{Object.assign(prefs,JSON.parse(localStorage.getItem(PREFS_KEY)||'{}'));}catch(e){}
 const LIST_N = parseInt(document.body.dataset.list||'0',10);
 const READ_KEY='ky_read_'+String(LIST_N).padStart(2,'0');
@@ -207,6 +207,8 @@ let voices=[];
 function loadVoices(){voices=speechSynthesis.getVoices()||[];}
 if('speechSynthesis' in window){loadVoices();speechSynthesis.onvoiceschanged=loadVoices;}
 let _utter=null,_spkTm=null;
+let _warmed=false;
+document.addEventListener('pointerdown',function warm(){if(_warmed)return;_warmed=true;try{const wu=new SpeechSynthesisUtterance(' ');wu.volume=0;speechSynthesis.speak(wu);}catch(e){}},{capture:true});
 function speak(text){
   if(!('speechSynthesis' in window)){showToast('当前浏览器不支持朗读');return;}
   speechSynthesis.cancel();
@@ -292,6 +294,7 @@ function applyPrefs(){
   document.querySelectorAll('.seg.modes button').forEach(b=>b.classList.toggle('on',b.dataset.mode===prefs.mode));
   document.documentElement.style.setProperty('--artfs',prefs.fs+'px');
   document.getElementById('accentBtn').textContent=prefs.accent==='en-GB'?'🇬🇧 英音':'🇺🇸 美音';
+  document.getElementById('autoSpBtn').textContent=prefs.autosp?'🔊 自动播报:开':'🔇 自动播报:关';
   document.body.classList.toggle('gram-all',prefs.gramHL);
   document.getElementById('gramBtn').classList.toggle('on',prefs.gramHL);
   document.querySelectorAll('.gram-card').forEach(c=>c.classList.toggle('open',prefs.gramHL));
@@ -303,6 +306,7 @@ document.querySelectorAll('.seg.modes button').forEach(b=>b.addEventListener('cl
 document.getElementById('fsMinus').addEventListener('click',()=>{prefs.fs=Math.max(14,prefs.fs-1);savePrefs();applyPrefs();});
 document.getElementById('fsPlus').addEventListener('click',()=>{prefs.fs=Math.min(23,prefs.fs+1);savePrefs();applyPrefs();});
 document.getElementById('accentBtn').addEventListener('click',()=>{prefs.accent=prefs.accent==='en-US'?'en-GB':'en-US';savePrefs();applyPrefs();showToast(prefs.accent==='en-GB'?'已切换为英音':'已切换为美音');});
+document.getElementById('autoSpBtn').addEventListener('click',()=>{prefs.autosp=!prefs.autosp;savePrefs();applyPrefs();showToast(prefs.autosp?'已开启自动播报':'已关闭自动播报');if(prefs.autosp){const c=document.querySelector('#rFlip .rw');if(c&&mask.classList.contains('open'))speak(c.textContent);}});
 document.getElementById('gramBtn').addEventListener('click',()=>{prefs.gramHL=!prefs.gramHL;savePrefs();applyPrefs();});
 document.getElementById('rootBtn').addEventListener('click',()=>{prefs.rootOnly=!prefs.rootOnly;savePrefs();applyPrefs();showToast(prefs.rootOnly?'已聚焦本篇词根词，其余词变淡':'已退出词根聚焦');});
 /* ---------- reading progress ---------- */
@@ -337,6 +341,7 @@ function renderCard(){
     +'<div class="rface rback">'+esc(it.c||'')+'</div>'
     +'</div></div><div class="rtip">还不熟 → 留在生词本　｜　已掌握 → 自动移除</div>';
   document.getElementById('rFlip').addEventListener('click',function(ev){if(!ev.target.dataset.sp)this.classList.toggle('flipped');else speak(it.w);});
+  if(prefs.autosp)speak(it.w);
 }
 document.getElementById('btnReview').addEventListener('click',openReview);
 document.getElementById('rClose').addEventListener('click',()=>{mask.classList.remove('open');speechSynthesis.cancel();renderPanel();syncWordState();});
@@ -569,6 +574,7 @@ PAGE_TPL = """<!DOCTYPE html>
       <button class="tbtn" id="fsPlus">A＋</button>
     </div>
     <button class="tbtn" id="accentBtn">🇺🇸 美音</button>
+    <button class="tbtn" id="autoSpBtn">🔊 自动播报:开</button>
     <button class="tbtn" id="gramBtn">🔷 长难句<span class="n">__NGRAM__</span></button>
     <a class="tbtn" href="roots.html">🌱 词根中心</a>
     <a class="tbtn" href="review.html">📅 每日复习</a>
@@ -1034,6 +1040,8 @@ table.plan td:first-child{color:#c87f10;font-weight:bold;white-space:nowrap;widt
 .sbar{max-width:640px;margin:0 auto 18px;height:5px;background:#dbe6f2;border-radius:4px;overflow:hidden;}
 #sBarFill{height:100%;width:0;background:linear-gradient(90deg,#2b7cdd,#56a3f0);transition:width .2s;}
 .shead{max-width:640px;margin:0 auto 10px;display:flex;justify-content:center;gap:16px;flex-wrap:wrap;font-size:13px;color:#5a6f82;background:rgba(255,255,255,.78);border:1px solid #e2e8f0;border-radius:12px;padding:7px 12px;}
+.aspbtn{background:#eef4fc;border:1px solid #d7e5f7;border-radius:10px;padding:2px 10px;font-size:12.5px;color:#2b5797;cursor:pointer;}
+.aspbtn:active{transform:scale(.95);}
 .shead b{color:#1f66c2;font-variant-numeric:tabular-nums;}
 /* 5分钟/30分钟复习阶段：背景与学习界面区分开 */
 #sess.ph-r5{background:linear-gradient(160deg,#fdf3dc,#fef9ec);}
@@ -1131,6 +1139,8 @@ try{const raw=JSON.parse(localStorage.getItem(SKEY)||'null');if(raw&&raw.words)R
 Object.keys(RV.words).forEach(k=>{const st=RV.words[k];if(st&&st.t0===undefined)st.t0=st.t;});
 if(!RV.checks)RV.checks={};
 let prefs={};try{Object.assign(prefs,JSON.parse(localStorage.getItem('ky_prefs_v2')||'{}'));}catch(e){}
+if(prefs.autosp===undefined)prefs.autosp=true;
+function savePrefs(){try{localStorage.setItem('ky_prefs_v2',JSON.stringify(prefs));}catch(e){}}
 function save(){localStorage.setItem(SKEY,JSON.stringify(RV));}
 /* 到期时刻：第1轮(5分钟)/第2轮(30分钟) 按「上一轮完成时刻」重新计时；
    第3轮起(12小时/1天/2天/4天/7天/15天) 按首次学习的总时间计算 */
@@ -1168,6 +1178,8 @@ function midOf(s){const p=s.split('-');return new Date(+p[0],+p[1]-1,+p[2]).getT
 let voices=[];function loadVoices(){voices=speechSynthesis.getVoices()||[];}
 if('speechSynthesis' in window){loadVoices();speechSynthesis.onvoiceschanged=loadVoices;}
 let _utter=null,_spkTm=null;
+let _warmed=false;
+document.addEventListener('pointerdown',function warm(){if(_warmed)return;_warmed=true;try{const wu=new SpeechSynthesisUtterance(' ');wu.volume=0;speechSynthesis.speak(wu);}catch(e){}},{capture:true});
 function speak(t){if(!('speechSynthesis' in window))return;speechSynthesis.cancel();if(_spkTm)clearTimeout(_spkTm);_spkTm=setTimeout(function(){const u=new SpeechSynthesisUtterance(t);_utter=u;u.lang=prefs.accent||'en-US';u.rate=0.88;const v=voices.find(v=>v.lang===u.lang)||voices.find(v=>v.lang&&v.lang.startsWith(u.lang.slice(0,2)));if(v){u.voice=v;u.lang=v.lang;}u.onend=u.onerror=function(){if(_utter===u)_utter=null;};speechSynthesis.speak(u);},80);}
 const TOTAL=DATA.lists.reduce((a,l)=>a+l.words.length,0);
 const POOL=[];DATA.lists.forEach(l=>l.words.forEach(w=>POOL.push(w)));
@@ -1408,6 +1420,9 @@ function checkFinish(){
   renderDone();
 }
 function exitSess(){if(S){if(S.timerInt)clearInterval(S.timerInt);if(S.tick2)clearInterval(S.tick2);}S=null;sess.className='';sess.style.display='none';document.getElementById('dashWrap').style.display='';if('speechSynthesis' in window)speechSynthesis.cancel();renderDash();}
+function updAsp(){const b=document.getElementById('autoSpBtn');if(b)b.textContent=prefs.autosp?'🔊 自动播报:开':'🔇 自动播报:关';}
+document.getElementById('autoSpBtn').addEventListener('click',()=>{prefs.autosp=!prefs.autosp;savePrefs();updAsp();});
+updAsp();
 document.getElementById('sExit').addEventListener('click',exitSess);
 function sentHtml(en,target){
   return en.split(/(\[\[[^\[\]]+?\]\])/).map(p=>{
@@ -1457,6 +1472,7 @@ function renderCard(){
     +'<button class="cnext" id="cNext">继续 →</button>'
     +'</div></div>';
   document.getElementById('csp').addEventListener('click',e=>{e.stopPropagation();speak(w.w);});
+  if(prefs.autosp)speak(w.w);
   function pick(a){
     if(S.answered)return;S.answered=true;
     const elapsed=((Date.now()-S.cardStart)/1000);
@@ -1614,7 +1630,7 @@ review_html = ("""<!DOCTYPE html>
     <div class="sprog" id="sProg"></div>
     <div class="smode" id="sMode"></div>
   </div>
-  <div class="shead"><span>🕒 总计时 <b id="sTotalT">00:00</b></span><span>⏳ 5分钟周期 <b id="sCycleT">05:00</b></span><span id="sPools"></span></div>
+  <div class="shead"><span>🕒 总计时 <b id="sTotalT">00:00</b></span><span>⏳ 5分钟周期 <b id="sCycleT">05:00</b></span><span id="sPools"></span><button id="autoSpBtn" class="aspbtn"></button></div>
   <div class="sbar"><div id="sBarFill"></div></div>
   <div id="cardBox"></div>
 </div>
