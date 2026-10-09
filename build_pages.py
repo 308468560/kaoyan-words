@@ -206,15 +206,21 @@ function showToast(m){const t=document.getElementById('toast');t.textContent=m;t
 let voices=[];
 function loadVoices(){voices=speechSynthesis.getVoices()||[];}
 if('speechSynthesis' in window){loadVoices();speechSynthesis.onvoiceschanged=loadVoices;}
+let _utter=null,_spkTm=null;
 function speak(text){
   if(!('speechSynthesis' in window)){showToast('当前浏览器不支持朗读');return;}
   speechSynthesis.cancel();
-  const u=new SpeechSynthesisUtterance(text);
-  u.lang=prefs.accent;u.rate=0.96;
-  const want=prefs.accent;
-  let v=voices.find(v=>v.lang===want)||voices.find(v=>v.lang.startsWith(want.slice(0,2)));
-  if(v)u.voice=v;
-  speechSynthesis.speak(u);
+  if(_spkTm)clearTimeout(_spkTm);
+  _spkTm=setTimeout(function(){
+    const u=new SpeechSynthesisUtterance(text);
+    _utter=u;
+    u.lang=prefs.accent;u.rate=0.88;
+    const want=prefs.accent;
+    let v=voices.find(v=>v.lang===want)||voices.find(v=>v.lang.startsWith(want.slice(0,2)));
+    if(v){u.voice=v;u.lang=v.lang;}
+    u.onend=u.onerror=function(){if(_utter===u)_utter=null;};
+    speechSynthesis.speak(u);
+  },80);
 }
 /* ---------- vocab queue ---------- */
 function renderPanel(){
@@ -1161,7 +1167,8 @@ function todayStr(){const d=new Date();return d.getFullYear()+'-'+String(d.getMo
 function midOf(s){const p=s.split('-');return new Date(+p[0],+p[1]-1,+p[2]).getTime();}
 let voices=[];function loadVoices(){voices=speechSynthesis.getVoices()||[];}
 if('speechSynthesis' in window){loadVoices();speechSynthesis.onvoiceschanged=loadVoices;}
-function speak(t){if(!('speechSynthesis' in window))return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang=prefs.accent||'en-US';u.rate=0.95;const v=voices.find(v=>v.lang===u.lang)||voices.find(v=>v.lang&&v.lang.startsWith(u.lang.slice(0,2)));if(v)u.voice=v;speechSynthesis.speak(u);}
+let _utter=null,_spkTm=null;
+function speak(t){if(!('speechSynthesis' in window))return;speechSynthesis.cancel();if(_spkTm)clearTimeout(_spkTm);_spkTm=setTimeout(function(){const u=new SpeechSynthesisUtterance(t);_utter=u;u.lang=prefs.accent||'en-US';u.rate=0.88;const v=voices.find(v=>v.lang===u.lang)||voices.find(v=>v.lang&&v.lang.startsWith(u.lang.slice(0,2)));if(v){u.voice=v;u.lang=v.lang;}u.onend=u.onerror=function(){if(_utter===u)_utter=null;};speechSynthesis.speak(u);},80);}
 const TOTAL=DATA.lists.reduce((a,l)=>a+l.words.length,0);
 const POOL=[];DATA.lists.forEach(l=>l.words.forEach(w=>POOL.push(w)));
 function shuffle(a){for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
