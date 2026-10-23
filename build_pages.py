@@ -13,6 +13,14 @@ import json, re, os, html
 ROOT = r'd:\2\WEB'
 PASS = os.path.join(ROOT, 'passages')
 MARK = re.compile(r'\[\[([^\[\]]+?)\]\]')
+
+def split_mark(s):
+    """标记支持 [[显示形式|词表原形]]，例如 [[obliged|oblige]]；不写竖线时二者相同。"""
+    if '|' in s:
+        d, b = s.split('|', 1)
+        return d.strip(), b.strip()
+    s = s.strip()
+    return s, s
 TOKEN = re.compile(r"[A-Za-zÀ-ɏ]+(?:['’\-‑][A-Za-zÀ-ɏ]+)*")
 
 words_data = json.load(open(os.path.join(ROOT, 'words.json'), encoding='utf-8'))
@@ -356,7 +364,7 @@ renderPanel();syncWordState();applyPrefs();onScroll();
 
 # ---------------------------------------------------------------- rendering
 def norm(s):
-    return MARK.sub(lambda m: m.group(1), s)
+    return MARK.sub(lambda m: split_mark(m.group(1))[0], s)
 
 def lemma_candidates(low):
     c = {low}
@@ -478,10 +486,10 @@ def render_en_text(text, list_lookup, extra_lookup, common_lookup):
     pos = 0
     for m in MARK.finditer(text):
         parts.append(render_en_segment(text[pos:m.start()], list_lookup, extra_lookup, common_lookup))
-        display = m.group(1).strip()
-        info = list_lookup.get(display.lower())
+        display, base = split_mark(m.group(1))
+        info = list_lookup.get(base.lower())
         if info is None:
-            raise ValueError('marker not in list: ' + display)
+            raise ValueError('marker not in list: ' + base)
         parts.append(make_span('list', info['word'], display, info['phon'], info['def']))
         pos = m.end()
     parts.append(render_en_segment(text[pos:], list_lookup, extra_lookup, common_lookup))
@@ -536,7 +544,7 @@ REVIEW_BELL_JS = r"""
       }
       var back=encodeURIComponent(location.pathname.split('/').pop()||'index.html');
       bell.innerHTML='<div style="font-weight:bold;margin-bottom:4px">🔔 复习时间到！</div><div>'+due+' 个单词已到达遗忘临界点</div>'
-        +'<div style="margin-top:8px;display:flex;gap:8px"><a href="review.html?back='+back+'" style="flex:1;text-align:center;background:#fff;color:#c87f10;text-decoration:none;border-radius:9px;padding:5px 0;font-weight:bold">去复习 →</a>'
+        +'<div style="margin-top:8px;display:flex;gap:8px"><a href="review.html?auto=all&back='+back+'" style="flex:1;text-align:center;background:#fff;color:#c87f10;text-decoration:none;border-radius:9px;padding:5px 0;font-weight:bold">去复习 →</a>'
         +'<span class="rvBellX" style="cursor:pointer;background:rgba(255,255,255,.25);border-radius:9px;padding:5px 10px">稍后</span></div>';
       var x=bell.querySelector('.rvBellX');
       if(x)x.addEventListener('click',function(){hideUntil=Date.now()+10*6e4;if(bell){bell.remove();bell=null;dueShown=-1;}});
@@ -916,7 +924,8 @@ for n in range(1, 21):
             si_store = len(sents)
             sents.append({'en': en, 'zh': zhf['zh'][pid][sid]})
             for f in marks:
-                low = f.strip().lower()
+                _, base = split_mark(f)
+                low = base.lower()
                 for cand in lemma_candidates(low):
                     if cand in list_lookup:
                         word_si.setdefault(cand, []).append((low == cand, si_store))
@@ -1146,6 +1155,7 @@ function save(){localStorage.setItem(SKEY,JSON.stringify(RV));}
    第3轮起(12小时/1天/2天/4天/7天/15天) 按首次学习的总时间计算 */
 function nextDue(st){if(!st||st.s>=8)return null;return (st.s<=1?st.t:st.t0)+IVL[st.s];}
 const BACK=(()=>{try{const b=new URLSearchParams(location.search).get('back')||'';return /^[\w-]+\.html$/.test(b)?b:'';}catch(e){return '';}})();
+const AUTO=(()=>{try{return new URLSearchParams(location.search).get('auto')||'';}catch(e){return '';}})();
 const origTitle=document.title;
 let cdInt=null,titleInt=null,cdKey='',lastDueSeen=0;
 function beep(){try{const C=window.AudioContext||window.webkitAudioContext;const ctx=beep.ctx||(beep.ctx=new C());
@@ -1276,6 +1286,17 @@ function renderDash(){
   }
   if(dd.up.length)h+='<div style="margin-top:8px">'+dd.up.slice(0,4).map(u=>'<div class="uprow">⏳ List '+String(u.n).padStart(2,'0')+' · 第'+(u.s+1)+'轮（'+LAB[u.s]+'）· <b>'+fmtLeft(u.left)+'</b>到期</div>').join('')+(dd.up.length>4?'<div class="uprow" style="border:none">…另有 '+(dd.up.length-4)+' 轮未到期</div>':'')+'</div>';
   h+='</div>';
+  /* 📊 各遗忘临界点统计：每段遗忘时间当前在背的单词数 · 已到期 · 下次到期 */
+  const stStat=LAB.map(()=>({total:0,due:0,next:0}));
+  const nowS=Date.now();
+  Object.keys(RV.words).forEach(k=>{const st=RV.words[k];if(!st||st.s>=8)return;const d0=nextDue(st);if(d0===null)return;
+    const r=stStat[st.s];r.total++;if(d0<=nowS)r.due++;else if(!r.next||d0<r.next)r.next=d0;});
+  h+='<div class="box"><h2>📊 遗忘临界点统计 <small>每段遗忘时间到时所背的单词：在背词数 · 已到期 · 下次到期</small></h2><div style="overflow-x:auto"><table class="plan" style="min-width:780px">'
+    +'<tr><td style="width:78px">临界点</td>'+LAB.map((l,i)=>'<td><b>第'+(i+1)+'轮</b><br><span class="muted">'+l+'</span></td>').join('')+'</tr>'
+    +'<tr><td>在背词数</td>'+stStat.map(r=>'<td>'+(r.total||'<span class="muted">—</span>')+'</td>').join('')+'</tr>'
+    +'<tr><td>已到期</td>'+stStat.map(r=>'<td>'+(r.due?'<b style="color:#c87f10">'+r.due+' 词</b>':'<span class="muted">—</span>')+'</td>').join('')+'</tr>'
+    +'<tr><td>下次到期</td>'+stStat.map(r=>'<td>'+(r.due?'<b style="color:#c87f10">现在</b>':(r.next?fmtLeft(r.next-nowS):'<span class="muted">—</span>'))+'</td>').join('')+'</tr>'
+    +'</table></div></div>';
   h+='<div class="box"><h2>🗓 10 天总计划 <small>新词学完后按 8 个临界点自动排复习</small></h2><table class="plan">';
   for(let d=1;d<=10;d++){
     const cells=[2*d-1,2*d].map(n=>{const c=learnedOf(n),t=DATA.lists[n-1].words.length;

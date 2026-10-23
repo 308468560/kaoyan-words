@@ -192,7 +192,7 @@ document.getElementById('q').addEventListener('input',function(){
       }
       var back=encodeURIComponent(location.pathname.split('/').pop()||'index.html');
       bell.innerHTML='<div style="font-weight:bold;margin-bottom:4px">🔔 复习时间到！</div><div>'+due+' 个单词已到达遗忘临界点</div>'
-        +'<div style="margin-top:8px;display:flex;gap:8px"><a href="review.html?back='+back+'" style="flex:1;text-align:center;background:#fff;color:#c87f10;text-decoration:none;border-radius:9px;padding:5px 0;font-weight:bold">去复习 →</a>'
+        +'<div style="margin-top:8px;display:flex;gap:8px"><a href="review.html?auto=all&back='+back+'" style="flex:1;text-align:center;background:#fff;color:#c87f10;text-decoration:none;border-radius:9px;padding:5px 0;font-weight:bold">去复习 →</a>'
         +'<span class="rvBellX" style="cursor:pointer;background:rgba(255,255,255,.25);border-radius:9px;padding:5px 10px">稍后</span></div>';
       var x=bell.querySelector('.rvBellX');
       if(x)x.addEventListener('click',function(){hideUntil=Date.now()+10*6e4;if(bell){bell.remove();bell=null;dueShown=-1;}});
